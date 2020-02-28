@@ -7,7 +7,15 @@ grand_parent: "Data Models"
 
 # Article (Content Type)
 
-TBD
+Articles are probably the most common storytelling medium on the platform. Articles are mixed media in nature and there are no specific required fields.
+
+## Possible fields
+
+Articles share the [same basic fields]({{ site.baseurl }}{% link docs/data-models/content-item.md %}) and [“teaser data”]({{ site.baseurl }}{% link docs/data-models/content-item.md %}#teaser-data) as other content types.
+
+| Content Field                                   | Required |
+|:------------------------------------------------|:---------|
+| [Content Blocks]({{ site.baseurl }}{% link docs/data-models/content-blocks.md %}) (any) | No       |
 
 ## Content Variants
 * Long Form

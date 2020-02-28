@@ -7,4 +7,16 @@ grand_parent: "Data Models"
 
 # Static (Content Type)
 
-A static page is similar to other types of content and is defined as a content type (with possible variants). Static Content differs from other types of content in that it can not have metadata relations and it can not be published in the category tree. They do however have fields, blocks and “teaser data” just like any other type of content. However, as this type of content does not have metadata these teasers will not show up in automated lists.
+A static page is similar to other types of content and is defined as a content type (with possible variants). Static Content differs from other types of content in the following ways:
+
+* It can not have metadata relations
+* It can not be published in the category tree
+* It will not show up in automated lists
+
+## Possible fields
+
+Static page do share the [same basic fields]({{ site.baseurl }}{% link docs/data-models/content-item.md %}) and [“teaser data”]({{ site.baseurl }}{% link docs/data-models/content-item.md %}#teaser-data) as other content types.
+
+| Content Field                                   | Required |
+|:------------------------------------------------|:---------|
+| [Content Blocks]({{ site.baseurl }}{% link docs/data-models/content-blocks.md %}) (any) | No       |
