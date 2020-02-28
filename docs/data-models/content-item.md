@@ -39,6 +39,14 @@ Meta Data is used to describe or structure the content. Content Items (except st
 | [Brand]({{ site.baseurl }}{% link docs/data-models/brand.md %})              | No       | Many        |
 | [Contributor]({{ site.baseurl }}{% link docs/data-models/contributor.md %})  | No       | Many        |
 
+## Social Media Promotion Data
+
+The Content Item Information Design Templates comes with dedicated social media tags that guarantees great presentation on social media platforms. The content of these tags may be defined specifically or they will default to the data already available on the content item.
+
+Editable fields TBD.
+
 ## Teaser Data
 
 The content variant and type determines what sort of teaser to show on start pages and in lists. For video content the platform may show a teaser with a video play button and for a long read article there may be a larger, more engaging, image in the teaser.
+
+Editable fields TBD.

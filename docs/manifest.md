@@ -5,8 +5,12 @@ nav_order: 1
 ---
 
 # Platform manifest
+{: .no_toc }
 
 The purpose is to outline what we believe is the right solution to what our customers need and what we can sell. The initial intention is to use this as an internal document for shared understanding.
+
+1. TOC
+{:toc}
 
 ## Our raison d'être
 
@@ -70,3 +74,41 @@ Editorial content is generally dynamic by nature. You should always be able to t
 
 Sometimes you want to tell stories through other means than text or mixed media. Therefore the platform also comes with dedicated content types like video and audio. The purpose for this is to provide information about the way the content is intended to be primarily consumed. 
 
+## Content Promotion and Visibility
+
+For your content to be found, read and loved you need to promote it in different ways. There’s all types of external promotion that you can do like social media posting, search engine advertising, cross posting etc. These activities are not supported per se on the platform. The platform does however make sure that you have all the tools you need to ensure content visibility in external platforms.
+
+## Internal Promotion
+
+Besides promoting your content in external channels it is paramount to make sure users are able to find relevant content when they’re interacting with your product. This is where internal promotion comes into play. Internal promotion happens on the start page, on editorial section pages, in recirculation blocka on articles or on tag, category, brand pages etc.
+
+## Monetisation
+
+### Premium Content
+
+There’s a general paywall setting for each product. This setting is defined in the product configuration and can be set to “off”, “free” or “premium”. This determines the current default for the product. The general paywall setting can be overridden on specific articles by flagging them as “always premium” or “always free”. 
+
+If the General Paywall setting is “on” customer access to content is negotiated case-by-case by a “broker service”. The broker determines if an article is to be considered “premium” based on the general paywall setting but takes any overrides on the current article into regard. If the content is determined to be “premium” the broker will check the access rights of the current user. For a user to get access to premium content they need to be logged in and flagged as “eligible to premium content”. 
+
+If content is determined to be “premium” but the user is not eligible they will be presented with a call to action. This can either be to log in or to sign up/subscribe. These components can be defined somewhere.
+
+Premium content is available for search engines at all times. For further information about access rights and customer management see Authentication and Customer Management respectively.
+
+### Display Ads
+
+There are a number of Display Ad placements and formats that can be used for third-party advertising solutions (i.e. 
+Google Ad Manager). The platform comes with several pre defined placements in the header, on articles and on the start page. You can pick and choose which ones to use in the Editorial Product configuration.
+
+### Native
+
+Church and State. Separate simplified Content Pool. Fed into product. How to promote?
+
+### Branded/partner content
+
+Branded or sponsored content is produced in the same Content Pool as other editorial content. This can be any type of content as long as it is tagged with a partner. All content attributed to a partner will be clearly marked as such. 
+
+Every partner will have its own page where they can be presented and have all sponsored content listed. A partner can also sponsor tags and sections. Any content with that tag or in that section will then be attributed to the partner.
+
+## Customer Access and Management
+
+TBD

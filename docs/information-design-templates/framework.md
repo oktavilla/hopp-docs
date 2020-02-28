@@ -3,6 +3,7 @@ layout: default
 title:  "Framework"
 nav_order: 1
 parent: "Information Design Templates"
+has_children: true
 ---
 
 # Framework
