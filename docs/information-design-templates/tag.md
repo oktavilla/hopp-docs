@@ -15,5 +15,4 @@ There is one page for each Tag. The content of a tag page is determined by its [
 * A tag page will always list all content items placed in or below it (latest first).
 
 For specific needs a standard tag page can be “replaced” by a
-[curated tag page]({{ site.baseurl }}{% link docs/information-design-templates/tag-curated.md %}) or a
-[grouped tag page]({{ site.baseurl }}{% link docs/information-design-templates/tag-grouped.md %}).
+[curated tag page]({{ site.baseurl }}{% link docs/information-design-templates/tag-curated.md %}).
