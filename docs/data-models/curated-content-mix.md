@@ -7,6 +7,8 @@ parent: "Data Models"
 
 # Curated Content Mix
 
+{% include wip.md %}
+
 The Start Page or an Curated Sub Start Page contains an ordered set of named lists. Each list is configured to, either manually or automatically, show content item teasers. Such a set of lists, their settings and automation rules are referred to as a “curated content mix” in the platform. The list definitions and their order is set up in the product configuration. A Curated Sub Start Page can be set up to either be shown on a tag, category, partner or contributor page.
 
 An automated list will have a number of slots as well as selection and order rules. The selection rules are basically metadata filters and the result set is ordered according to the settings and then cut of based on the number of available slots. An automated list may also be manually populated with teasers by an editor. Manually placed teasers takes up slots either in the beginning or at the end of the list depending on your configuration.

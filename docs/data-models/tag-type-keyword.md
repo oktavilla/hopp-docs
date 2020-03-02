@@ -7,4 +7,14 @@ grand_parent: "Data Models"
 
 # Keyword (Tag Type)
 
-TBD
+{% include wip.md %}
+
+A generic tag. Used to describe a content item.
+
+## Fields
+
+Besides [the basic tag fields](tag.md#fields) this type of tag may also contain:
+
+| Field                                             | Required |
+|:--------------------------------------------------|:---------|
+| Image                                             | No       |

@@ -7,6 +7,8 @@ parent: "Data Models"
 
 # Contributor
 
+{% include wip.md %}
+
 A contributor is used for article and media attribution.
 
 | Content Field                                   | Required | Comment                          |
