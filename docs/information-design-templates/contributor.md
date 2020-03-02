@@ -7,4 +7,4 @@ parent: "Information Design Templates"
 
 # Contributor Page
 
-There is one page for each [Contributor]({{ site.baseurl }}{% link docs/data-models/contributor.md %}). 
+There is one page for each [Contributor](../data-models/contributor.md). 

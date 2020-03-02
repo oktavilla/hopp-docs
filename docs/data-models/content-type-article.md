@@ -11,11 +11,11 @@ Articles are probably the most common storytelling medium on the platform. Artic
 
 ## Possible fields
 
-Articles share the [same basic fields]({{ site.baseurl }}{% link docs/data-models/content-item.md %}) and [“teaser data”]({{ site.baseurl }}{% link docs/data-models/content-item.md %}#teaser-data) as other content types.
+Articles share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
 
 | Content Field                                   | Required |
 |:------------------------------------------------|:---------|
-| [Content Blocks]({{ site.baseurl }}{% link docs/data-models/content-blocks.md %}) (any) | No       |
+| [Content Blocks](content-blocks.md) (any)       | No       |
 
 ## Content Variants
 * Long Form

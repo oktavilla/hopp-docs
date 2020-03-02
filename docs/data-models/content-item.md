@@ -20,8 +20,8 @@ Every Content Item may also have other fields and may allow for different Conten
 
 Content Types are native to the platform and they define the data schemas for different genres of content. All content, no matter which type, can (at least theoretically) contain any kind of media, but the content type determines what the **primary storytelling medium** is.
 
-* [Article]({{ site.baseurl }}{% link docs/data-models/content-type-article.md %})
-* [Static]({{ site.baseurl }}{% link docs/data-models/content-type-static.md %})
+* [Article](content-type-article.md)
+* [Static](content-type-static.md)
 
 ## Content Variants
 
@@ -31,13 +31,13 @@ The platform comes with one or several variants of every content type. The varia
 
 Meta Data is used to describe or structure the content. Content Items (except static ones) may have relationships to meta data of different different kinds. These types of relationships are possible or required:
 
-| Meta Data                                                                    | Required | One or many |
-|:-----------------------------------------------------------------------------|:---------|:------------|
-| [Category]({{ site.baseurl }}{% link docs/data-models/category.md %})        | Yes      | One         |
-| [Language]({{ site.baseurl }}{% link docs/data-models/content-language.md %})| Yes      | One         |
-| [Tag]({{ site.baseurl }}{% link docs/data-models/tag.md %})                  | No       | Many        |
-| [Brand]({{ site.baseurl }}{% link docs/data-models/brand.md %})              | No       | Many        |
-| [Contributor]({{ site.baseurl }}{% link docs/data-models/contributor.md %})  | No       | Many        |
+| Meta Data                                         | Required | One or many |
+|:--------------------------------------------------|:---------|:------------|
+| [Category](category.md)                           | Yes      | One         |
+| [Language](content-language.md)                   | Yes      | One         |
+| [Tag](tag.md)                                     | No       | Many        |
+| [Brand](brand.md)                                 | No       | Many        |
+| [Contributor](contributor.md)                     | No       | Many        |
 
 ## Social Media Promotion Data
 

@@ -7,7 +7,7 @@ parent: "Information Design Templates"
 
 # Content Item Page
 
-There is one page for each Article, Video etc. Exactly what fields and data that is available is defined by the [Content Type Schema]({{ site.baseurl }}{% link docs/data-models/content-item.md %}).
+There is one page for each Article, Video etc. Exactly what fields and data that is available is defined by the [Content Type Schema](../data-models/content-item.md).
 
 Besides the actual specific content defined in the content item this page may also have recirculation, internal ads and product services teasers (like subscriptions).
 

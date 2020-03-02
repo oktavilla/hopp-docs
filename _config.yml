@@ -1,6 +1,8 @@
 # Site setting
 title: Hopp
 description: There's still hope. Probably.
+plugins:
+  - jekyll-relative-links
 
 # Theme
 remote_theme: pmarsceill/just-the-docs
@@ -26,3 +28,7 @@ footer_content: "There's still hope. Probably."
 aux_links:
   "GitHub":
     - "//github.com/oktavilla/hopp-docs"
+
+relative_links:
+  enabled:     true
+  collections: true

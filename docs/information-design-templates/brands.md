@@ -7,4 +7,4 @@ parent: "Information Design Templates"
 
 # Brands Page
 
-This page will list all [Brands]({{ site.baseurl }}{% link docs/data-models/brand.md %}) alphabetically.
+This page will list all [Brands](../data-models/brand.md) alphabetically.

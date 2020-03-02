@@ -15,8 +15,8 @@ A static page is similar to other types of content and is defined as a content t
 
 ## Possible fields
 
-Static page do share the [same basic fields]({{ site.baseurl }}{% link docs/data-models/content-item.md %}) and [“teaser data”]({{ site.baseurl }}{% link docs/data-models/content-item.md %}#teaser-data) as other content types.
+Articles share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
 
 | Content Field                                   | Required |
 |:------------------------------------------------|:---------|
-| [Content Blocks]({{ site.baseurl }}{% link docs/data-models/content-blocks.md %}) (any) | No       |
+| [Content Blocks](content-blocks.md) (any)       | No       |
