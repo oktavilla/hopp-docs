@@ -15,7 +15,7 @@ A static page is similar to other types of content and is defined as a content t
 
 ## Possible fields
 
-Articles share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
+Static pages share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
 
 | Content Field                                   | Required |
 |:------------------------------------------------|:---------|
