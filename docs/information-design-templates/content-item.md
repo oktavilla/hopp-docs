@@ -21,14 +21,6 @@ The content of these tags may have been [specifically defined](../data-models/co
 
 The Information Design Templates are pre optimised for great visibility in search engines through speed and industry standard use of meta data and micro formats. 
 
-## Sponsorship
-
-When a content item has a relationship to a [brand](../data-models/brand.md) that is called a sponsorship. There are two kinds:
-* A content item may be explicitly related to a brand through its meta data.
-* A content iten may inherit brand information from its [category](../data-models/category.md) or [tags](../data-models/tag.md).
-
-If a content item ends up with several sponsors they will all be shown. 
-
 ## Recirculation
 
 TBD

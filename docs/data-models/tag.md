@@ -23,13 +23,3 @@ Besides these basic fields a tag may contain fields specific for its type:
 * [Edition](tag-type-edition.md)
 * [Geographical Region](tag-type-geographical-region.md)
 * [Keyword](tag-type-keyword.md)
-
-## Sponsoring of a tag
-
-A tag may be sponsored by a brand. This will effectively mean that all tagged content 
-items will also be sponsored. This will stay in effect until the sponsorship is removed
-from the tag.
-
-| Meta Data                                         | Required | One or many |
-|:--------------------------------------------------|:---------|:------------|
-| [Brand](brand.md)                                 | No       | One         |
