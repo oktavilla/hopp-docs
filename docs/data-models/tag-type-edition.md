@@ -16,6 +16,4 @@ The most common use case is for an edition tag to represent a print issue of a m
 
 Besides [the basic tag fields](tag.md#fields) this type of tag may also contain:
 
-| Field                                             | Required |
-|:--------------------------------------------------|:---------|
-| Image                                             | No       |
+{% include fields-table.md definition="tag-type-edition-fields" %}

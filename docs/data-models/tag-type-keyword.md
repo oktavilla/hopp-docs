@@ -15,6 +15,4 @@ A generic tag. Used to describe a content item.
 
 Besides [the basic tag fields](tag.md#fields) this type of tag may also contain:
 
-| Field                                             | Required |
-|:--------------------------------------------------|:---------|
-| Image                                             | No       |
+{% include fields-table.md definition="tag-type-keyword-fields" %}

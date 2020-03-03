@@ -1,0 +1,5 @@
+- field: "Title"
+  required: "Yes"
+
+- field: "Text"
+  required: "No"

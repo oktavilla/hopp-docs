@@ -15,12 +15,6 @@ Articles share the [same basic fields](content-item.md) and [“teaser data”](
 
 {% include fields-table.md definition="content-type-article-fields" %}
 
-------------
-
-| Content Field                                   | Required |
-|:------------------------------------------------|:---------|
-| [Content Blocks](content-blocks.md) (any)       | No       |
-
 ## Content Variants
 * Long Form
 * Opinion Piece

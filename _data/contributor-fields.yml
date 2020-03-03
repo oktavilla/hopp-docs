@@ -1,0 +1,21 @@
+- field: "Name"
+  required: "Yes"
+
+- field: "Biography"
+  required: "No"
+
+- field: "Role"
+  required: "No"
+
+- field: "Feature Photo"
+  required: "No"
+  comment: "Used when featured (in e.g opinion pieces)"
+
+- field: "Byline Photo"
+  required: "No"
+  comment: "Used in standard bylines"
+
+- field: "Active"
+  required: "Yes"
+  comment: "Defines if the contributor should be shown in lists etc"
+
