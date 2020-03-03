@@ -13,9 +13,7 @@ Articles are probably the most common storytelling medium on the platform. Artic
 
 Articles share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
 
-| Content Field                                   | Required |
-|:------------------------------------------------|:---------|
-| [Content Blocks](content-blocks.md) (any)       | No       |
+{% include fields-table.md definition="content-type-article-fields" %}
 
 ## Content Variants
 * Long Form
