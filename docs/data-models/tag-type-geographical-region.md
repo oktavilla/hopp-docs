@@ -15,9 +15,6 @@ as long as it can be described in geographical bounds.
 
 ## Fields
 
-Besides [the basic tag fields](tag.md#fields) this type of tag may also contain:
+{% include fields-table.md parent_definition="tag-fields" definition="tag-type-geographical-region-fields" %}
 
-{% include fields-table.md definition="tag-type-geographical-region-fields" %}
-
-* Lat/Lng bounds as an array, e.g:
-`[{lat: -34, lng: 151}, {lat: -23, lng: 31}]`
+\* [Basic tag field](tag.md#fields)

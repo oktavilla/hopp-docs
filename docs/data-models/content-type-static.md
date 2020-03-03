@@ -13,8 +13,16 @@ A static page is similar to other types of content and is defined as a content t
 * It can not be published in the category tree
 * It will not show up in automated lists
 
-## Possible fields
+## Fields
 
-Static pages share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
+{% include fields-table.md parent_definition="content-item-fields" definition="content-type-static-fields" %}
 
-{% include fields-table.md definition="content-type-static-fields" %}
+\* Basic [Content Item field](content-item.md#fields)
+
+## Teaser Data
+
+Static pages have the same [“teaser data”](content-item.md#teaser-data) as other content types.
+
+## Content Variants
+
+There are currently *no* variants of static pages.

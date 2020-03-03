@@ -9,11 +9,14 @@ has_toc: false
 
 # Content Item
 
-Content items have:
+## Fields
 
 {% include fields-table.md definition="content-item-fields" %}
 
-Every Content Item may also have other fields and may allow for different Content blocks depending on the content type.
+Every Content Item may also have other fields and may allow for different Content blocks 
+depending on the content type. See below.
+
+## Content Types
 
 Content Types are native to the platform and they define the data schemas for different genres of content. All content, no matter which type, can (at least theoretically) contain any kind of media, but the content type determines what the **primary storytelling medium** is.
 

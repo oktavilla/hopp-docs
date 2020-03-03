@@ -9,11 +9,15 @@ grand_parent: "Data Models"
 
 Articles are probably the most common storytelling medium on the platform. Articles are mixed media in nature and there are no specific required fields.
 
-## Possible fields
+## Fields
 
-Articles share the [same basic fields](content-item.md) and [“teaser data”](content-item.md#teaser-data) as other content types.
+{% include fields-table.md parent_definition="content-item-fields" definition="content-type-article-fields" %}
 
-{% include fields-table.md definition="content-type-article-fields" %}
+\* Basic [Content Item field](content-item.md#fields)
+
+## Teaser Data
+
+Articles have the same [“teaser data”](content-item.md#teaser-data) as other content types.
 
 ## Content Variants
 * Long Form

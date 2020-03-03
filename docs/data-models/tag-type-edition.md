@@ -14,6 +14,6 @@ The most common use case is for an edition tag to represent a print issue of a m
 
 ## Fields
 
-Besides [the basic tag fields](tag.md#fields) this type of tag may also contain:
+{% include fields-table.md parent_definition="tag-fields" definition="tag-type-edition-fields" %}
 
-{% include fields-table.md definition="tag-type-edition-fields" %}
+\* [Basic tag field](tag.md#fields)

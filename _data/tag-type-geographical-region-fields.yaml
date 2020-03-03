@@ -1,2 +1,3 @@
-- field: "Geographical Bounds*"
+- field: "Geographical Bounds"
   required: "No"
+  comment: "Lat/Lng coords as an array, e.g: `[{lat: -34, lng: 151}, {lat: -23, lng: 31}]`"
