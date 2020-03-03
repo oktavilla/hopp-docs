@@ -7,6 +7,8 @@ parent: "Data Models"
 
 # Brand
 
-A brand is a type of meta content that can be used to structure branded content. A brand has a name, a logo and a description. You will be able to relate content items, tags and categories to a brand and a brand will have its own page listing all related content.
+A brand is a type of meta content that can be used to structure branded content. A brand has a name, a logo and a description. You will be able to relate [content items](content-item.md), [tags](tag.md) and [categories](category.md) to a brand and a brand will have [its own page](../information-design-templates/brand.md) listing all related content.
 
-As content item may be explicitly related to a brand and it may inherit brand information from its category or tags. If that means an article ends up with several sponsors they will all be shown. 
+## Fields
+
+{% include fields-table.md definition="brand-fields" %}

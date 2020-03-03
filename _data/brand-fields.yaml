@@ -1,0 +1,8 @@
+- field: "Name"
+  required: "Yes"
+
+- field: "Logo"
+  required: "No"
+
+- field: "Text"
+  required: "No"

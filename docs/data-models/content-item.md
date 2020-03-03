@@ -11,10 +11,7 @@ has_toc: false
 
 Content items have:
 
-| Content Field                                   | Required |
-|:------------------------------------------------|:---------|
-| Title                                           | Yes      |
-| Lead                                            | No       |
+{% include fields-table.md definition="content-item-fields" %}
 
 Every Content Item may also have other fields and may allow for different Content blocks depending on the content type.
 
