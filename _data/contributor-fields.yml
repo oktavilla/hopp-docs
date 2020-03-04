@@ -7,7 +7,8 @@
 
 - field: "Text"
   required: "No"
-  comment: "Rich Text. For biography, presentation, role description etc"
+  field_type: "rich-text"
+  comment: "For biography, presentation, role description etc"
 
 - field: "E-mail Address"
   required: "No"
@@ -20,12 +21,15 @@
 
 - field: "Feature Photo"
   required: "No"
+  field_type: "image"
   comment: "Used when featured (in e.g opinion pieces)"
 
 - field: "Byline Photo"
   required: "No"
+  field_type: "image"
   comment: "Used in standard bylines"
 
 - field: "Active"
   required: "Yes"
+  field_type: "boolean"
   comment: "Defines if the contributor should be shown in lists etc"

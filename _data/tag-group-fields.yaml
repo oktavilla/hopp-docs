@@ -3,7 +3,8 @@
 
 - field: "Image"
   required: "No"
+  field_type: "image"
 
 - field: "Text"
   required: "No"
-  comment: "Rich Text"
+  field_type: "rich-text"

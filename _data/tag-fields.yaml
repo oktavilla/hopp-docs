@@ -3,4 +3,4 @@
 
 - field: "Text"
   required: "No"
-  comment: "Rich Text"
+  field_type: "rich-text"
