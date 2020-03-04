@@ -7,19 +7,17 @@ grand_parent: "Data Models"
 
 # Content Blocks Field
 
-{% include wip.md %}
+Blocks that allow basic formatting will permit **bold**, *Italic* and [links](http://oktavilla.se).
 
-## Quote Block
+----------
 
-{% include tbd.md %}
+## Paragraph Block
 
-## Listicle Block
-
-{% include tbd.md %}
+A text paragraph. May contain basic formatting.
 
 ## List Block
 
-{% include tbd.md %}
+A list can either be bulleted or numbered. List items may contain basic formatting.
 
 ## Image Block
 
@@ -29,10 +27,42 @@ grand_parent: "Data Models"
 
 {% include tbd.md %}
 
+## Audio Block
+
+{% include tbd.md %}
+
+## Video Block
+
+{% include tbd.md %}
+
+## Quote Block
+
+{% include tbd.md %}
+
+## Listicle Block
+
+{% include tbd.md %}
+
 ## Fact Block
 
 {% include tbd.md %}
 
 ## Embed Block
 
-{% include tbd.md %}
+{% include wip.md %}
+
+Embed blocks makes in possible to insert third-party content (video, audio, images, tweets, etc.) from
+trusted sources. It's possible to embed content from these sites:
+
+* YouTube
+* Twitter
+* Facebook
+* Instagram
+* Vimeo
+* Soundcloud
+* Spotify
+* Flickr
+* Polldaddy
+
+... and a few more.
+
