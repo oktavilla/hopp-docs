@@ -1,9 +1,29 @@
 - field: "Name"
   required: "Yes"
 
+- field: "Short Description"
+  required: "No"
+
 - field: "Logo"
+  required: "No"
+
+- field: "Image"
   required: "No"
 
 - field: "Text"
   required: "No"
   comment: "Rich Text"
+
+- field: "Web Address"
+  required: "No"
+
+- field: "Email Address"
+  required: "No"
+
+- field: "Phone Number"
+  required: "No"
+
+- field: "Other Contact Details"
+  required: "No"
+  comment: "Used for postal address, visiting address, fax no and other esoteric contact details."
+
