@@ -7,7 +7,7 @@
 
 - field: "Text"
   required: "No"
-  comment: "For biography, presentation, role description etc"
+  comment: "Rich Text. For biography, presentation, role description etc"
 
 - field: "E-mail Address"
   required: "No"

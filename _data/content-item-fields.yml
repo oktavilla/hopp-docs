@@ -3,3 +3,4 @@
   
 - field: "Lead"
   required: "No"
+  comment: "Rich Text"

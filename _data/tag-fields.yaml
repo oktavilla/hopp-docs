@@ -3,3 +3,4 @@
 
 - field: "Text"
   required: "No"
+  comment: "Rich Text"
