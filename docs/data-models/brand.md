@@ -11,6 +11,4 @@ A brand is a type of meta content that can be used to structure branded content.
 
 ## Fields
 
-{% include wip.md %}
-
 {% include fields-table.md definition="brand-fields" %}
