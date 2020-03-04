@@ -1,4 +1,4 @@
 - field: "Content Block(s)"
   required: "No"
-  data_model: content-blocks
+  field_type: content-blocks
   comment: "All Content Blocks are allowed"

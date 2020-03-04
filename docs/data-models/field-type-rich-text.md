@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Rich Text Field"
-parent: "Field Types & Content Blocks"
+parent: "Field Types"
 grand_parent: "Data Models"
 ---
 

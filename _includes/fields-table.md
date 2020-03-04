@@ -15,8 +15,8 @@
     {% for entry in parentTableFile %}
     <tr class="parent-definition">
       <td>
-        {% if entry.data_model %}
-          <a href="{{entry.data_model | prepend: site.base_url}}.html">{{entry.field}}</a>
+        {% if entry.field_type %}
+          <a href="{{entry.field_type | prepend: "field-type-" + site.base_url}}.html">{{entry.field}}</a>
         {% else %}
           {{entry.field}}
         {% endif %}
@@ -29,8 +29,8 @@
     {% for entry in tableFile %}
     <tr>
       <td>
-        {% if entry.data_model %}
-          <a href="{{entry.data_model | prepend: site.base_url}}.html">{{entry.field}}</a>
+        {% if entry.field_type %}
+          <a href="{{entry.field_type | prepend: "field-type-" + site.base_url}}.html">{{entry.field}}</a>
         {% else %}
           {{entry.field}}
         {% endif %}
