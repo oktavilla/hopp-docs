@@ -7,8 +7,6 @@ parent: "Data Models"
 
 # Contributor
 
-{% include wip.md %}
-
-A contributor is used for article and media attribution.
+A contributor is used for content item and media attribution.
 
 {% include fields-table.md definition="contributor-fields" %}

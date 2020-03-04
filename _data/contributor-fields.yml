@@ -1,10 +1,21 @@
 - field: "Name"
   required: "Yes"
 
-- field: "Biography"
+- field: "Role"
+  required: "No"
+  comment: "The role of the contributor. E.g photographer, journalist etc."
+
+- field: "Text"
+  required: "No"
+  comment: "For biography, presentation, role description etc"
+
+- field: "E-mail Address"
   required: "No"
 
-- field: "Role"
+- field: "Phone Number"
+  required: "No"
+
+- field: "Twitter Handle"
   required: "No"
 
 - field: "Feature Photo"
@@ -18,4 +29,3 @@
 - field: "Active"
   required: "Yes"
   comment: "Defines if the contributor should be shown in lists etc"
-
