@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Listicle Block"
+title:  "Embed Block"
 parent: "Field Types & Content Blocks"
 grand_parent: "Data Models"
 ---
 
-# Listicle Block
+# Embed Block
 
 {% include tbd.md %}
