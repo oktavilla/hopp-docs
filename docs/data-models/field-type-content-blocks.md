@@ -15,6 +15,10 @@ Blocks that allow basic formatting will permit **bold**, *Italic* and [links](ht
 
 A text paragraph. May contain basic formatting.
 
+## Heading Block
+
+A sub heading. Can be on levels h2-h4.
+
 ## List Block
 
 A list can either be bulleted or numbered. List items may contain basic formatting.
