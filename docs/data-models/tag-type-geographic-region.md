@@ -5,7 +5,7 @@ parent: "Tag"
 grand_parent: "Data Models"
 ---
 
-# Geographical Region (Tag Type)
+# Geographic Region (Tag Type)
 
 {% include wip.md %}
 
