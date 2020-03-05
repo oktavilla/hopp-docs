@@ -2,7 +2,6 @@
 layout: default
 title:  "Content Blocks Field"
 parent: "Field Types"
-grand_parent: "Data Models"
 ---
 
 # Content Blocks Field
