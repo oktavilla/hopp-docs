@@ -1,8 +1,7 @@
 ---
 layout: default
 title:  "Field Types"
-nav_order: 2
-parent: "Data Models"
+nav_order: 3
 has_children: true
 ---
 

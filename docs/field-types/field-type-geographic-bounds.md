@@ -1,11 +1,10 @@
 ---
 layout: default
-title:  "Geographical Bounds Field"
+title:  "Geographic Bounds Field"
 parent: "Field Types"
-grand_parent: "Data Models"
 ---
 
-# Geographical Bounds Field
+# Geographic Bounds Field
 
 {% include wip.md %}
 

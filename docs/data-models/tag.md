@@ -21,5 +21,5 @@ A tag must belong to a [Tag Group](tag-group-md).
 Besides these basic fields a tag may contain fields specific for its type:
 
 * [Edition](tag-type-edition.md)
-* [Geographical Region](tag-type-geographical-region.md)
+* [Geographic Region](tag-type-geographic-region.md)
 * [Keyword](tag-type-keyword.md)

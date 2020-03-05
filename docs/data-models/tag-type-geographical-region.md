@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Geographical Region"
+title:  "Geographic Region"
 parent: "Tag"
 grand_parent: "Data Models"
 ---
@@ -15,6 +15,6 @@ as long as it can be described in geographical bounds.
 
 ## Fields
 
-{% include fields-table.md parent_definition="tag-fields" definition="tag-type-geographical-region-fields" %}
+{% include fields-table.md parent_definition="tag-fields" definition="tag-type-geographic-region-fields" %}
 
 \* [Basic tag field](tag.md#fields)
