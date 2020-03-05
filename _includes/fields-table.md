@@ -42,7 +42,7 @@
           {% assign file_name = entry.field_type | prepend: 'field-type-' | append: '.md' %}
           {% assign field_type_page = site.pages | where: 'name', file_name %}
           {% assign field_type_title = field_type_page[0].title %}
-          <a href="{{entry.field_type | prepend: "field-type-" + site.base_url}}.html">{{ field_type_title | replace: " Field", "" }}</a>
+          <a href="{{entry.field_type | prepend: "../field-types/field-type-" + site.base_url}}.html">{{ field_type_title | replace: " Field", "" }}</a>
         {% else %}
           String
         {% endif %}
