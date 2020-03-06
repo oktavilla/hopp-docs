@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700');
+
+h1, h2, h3, .navigation-list-link {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.site-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2, h3 {
+  font-weight: 600;
+}
+
+.navigation-list-link {
+  @extend .fs-5;
+  color: $grey-dk-300;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px 0;
+
+  &.active {
+    background: $purple-000;
+    color: #fff;
+    border-radius: 2px;
+  }
+}
+.navigation-list-child-list .navigation-list-link {
+  @extend .fs-4;
+  font-weight: normal;
+  margin: 0;
+}
+
+.site-footer {
+  display: none;
+}
+
 .parent-definition {
   td {
   @extend .text-grey-lt-300;
