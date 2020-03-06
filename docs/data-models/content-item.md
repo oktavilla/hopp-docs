@@ -20,8 +20,7 @@ depending on the content type. See below.
 
 Content Types are native to the platform and they define the data schemas for different genres of content. All content, no matter which type, can (at least theoretically) contain any kind of media, but the content type determines what the **primary storytelling medium** is.
 
-* [Article](content-type-article.md)
-* [Static](content-type-static.md)
+{% include sub-items-list.md parent="Content Item" %}
 
 ## Content Variants
 

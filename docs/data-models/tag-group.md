@@ -7,7 +7,7 @@ parent: "Data Models"
 
 # Tag Group
 
-Every product will have a set of tag groups defined by the product [configuration](../configuration/index.md#tag-groups). A tag group can only contain tags of a [specific type](tag.md). 
+Every product will have a set of tag groups defined by the product [configuration](../configuration/index.md#tag-groups). A tag group can only contain tags of a [specific type](tag.md#tag-types). 
 
 ## Fields
 
