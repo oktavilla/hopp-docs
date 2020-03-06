@@ -10,8 +10,7 @@ grand_parent: "Data Models"
 {% include wip.md %}
 
 This type of tag is meant to represent a geographical region. 
-The platform does not have any restrictions on the definition of such 
-as long as it can be described in geographical bounds.
+The platform does not have any restrictions on the definition of such.
 
 ## Fields
 
