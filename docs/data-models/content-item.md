@@ -24,7 +24,7 @@ Content Types are native to the platform and they define the data schemas for di
 
 ## Content Variants
 
-The platform comes with one or several variants of every content type. The variant defines the **storytelling mode**. A content variant maps to exactly one content type and one set of information design templates (page and teasers). See respective Content Type for available variants.
+The platform comes with one or several variants of every content type. The variant defines the **storytelling mode**. A content variant maps to exactly one content type and one set of information design templates ([page](../information-design-templates/content-item.md) and [teasers](../information-design-templates/part-teaser.md)). See respective Content Type for available variants.
 
 ## Meta Data
 
@@ -46,6 +46,8 @@ Editable fields TBD.
 
 ## Teaser Data
 
-The content variant and type determines what sort of teaser to show on start pages and in lists. For video content the platform may show a teaser with a video play button and for a long read article there may be a larger, more engaging, image in the teaser.
+All content items have the same teaser fields no matter which type they are.
+All teaser fields are optional. The information design templates will use [fallbacks](../information-design-templates/part-teaser.md#teaser-content) if they are not specified.
 
-Editable fields TBD.
+{% include fields-table.md definition="teaser-fields" %}
+

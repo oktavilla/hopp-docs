@@ -1,3 +1,7 @@
+- field: "Main Image"
+  required: "No"
+  field_type: image
+
 - field: "Content"
   required: "No"
   field_type: content-blocks
