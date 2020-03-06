@@ -22,6 +22,10 @@ A sub heading. Can be on levels h2-h4.
 
 A list can either be bulleted or numbered. List items may contain basic formatting.
 
+## Map/geo Block
+
+{% include tbd.md %}
+
 ## Image Block
 
 {% include tbd.md %}
