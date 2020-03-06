@@ -28,11 +28,16 @@ h3 {
   padding-right: 5px;
   margin: 5px 0;
 
+  &:hover {
+    background-color: $grey-lt-100;
+  }
+
   &.active {
-    background: $purple-000;
+    background-color: $purple-000;
     color: #fff;
     border-radius: 2px;
   }
+
 }
 .navigation-list-child-list .navigation-list-link {
   @extend .fs-4;
