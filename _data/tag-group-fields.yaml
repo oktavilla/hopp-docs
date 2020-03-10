@@ -5,6 +5,6 @@
   required: "No"
   field_type: "image"
 
-- field: "Body"
+- field: "Description"
   required: "No"
   field_type: "rich-text"

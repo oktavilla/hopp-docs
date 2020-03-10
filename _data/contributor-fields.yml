@@ -5,7 +5,7 @@
   required: "No"
   comment: "The role of the contributor. E.g photographer, journalist etc."
 
-- field: "Body"
+- field: "Description"
   required: "No"
   field_type: "rich-text"
   comment: "For biography, presentation, role description etc"

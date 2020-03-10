@@ -1,6 +1,6 @@
 - field: "Name"
   required: "Yes"
 
-- field: "Body"
+- field: "Description"
   required: "No"
   field_type: "rich-text"
