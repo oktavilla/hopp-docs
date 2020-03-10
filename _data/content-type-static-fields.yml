@@ -1,4 +1,4 @@
-- field: "Content"
+- field: "Body"
   required: "No"
   field_type: content-blocks
   comment: "All Content Blocks are allowed"

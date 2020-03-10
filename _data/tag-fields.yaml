@@ -1,6 +1,6 @@
-- field: "Title"
+- field: "Name"
   required: "Yes"
 
-- field: "Text"
+- field: "Description"
   required: "No"
   field_type: "rich-text"

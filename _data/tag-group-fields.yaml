@@ -1,10 +1,10 @@
-- field: "Title"
+- field: "Name"
   required: "Yes"
 
 - field: "Image"
   required: "No"
   field_type: "image"
 
-- field: "Text"
+- field: "Description"
   required: "No"
   field_type: "rich-text"

@@ -1,31 +1,43 @@
 - field: "Name"
   required: "Yes"
+  comment: "The brand name."
 
-- field: "Short Description"
+- field: "Description"
   required: "No"
+  comment: "Used to describe the brand."
 
-- field: "Logo"
+- field: "Logotype"
   required: "No"
   field_type: "image"
+  comment: "The brand logo."
+
+- field: "URL"
+  required: "No"
+  comment: "Used for the brand site et dyl."
+
+- field: "E-mail Address"
+  required: "No"
+  comment: "Brand contact info."
+
+- field: "Phone Number"
+  required: "No"
+  comment: "Brand contact info."
+
+- field: "Additional Contact Details"
+  required: "No"
+  field_type: "rich-text"
+  comment: "Used for postal address, visiting address, fax no and other esoteric contact details."
+
+- field: "Title"
+  required: "No"
+  comment: "Used on the brand page."
 
 - field: "Image"
   required: "No"
   field_type: "image"
+  comment: "Used on the brand page."
 
-- field: "Text"
+- field: "Body"
   required: "No"
   field_type: "rich-text"
-
-- field: "Web Address"
-  required: "No"
-
-- field: "Email Address"
-  required: "No"
-
-- field: "Phone Number"
-  required: "No"
-
-- field: "Other Contact Details"
-  required: "No"
-  comment: "Used for postal address, visiting address, fax no and other esoteric contact details."
-
+  comment: "Used on the brand page."
