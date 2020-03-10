@@ -1,10 +1,10 @@
 - field: "Name"
   required: "Yes"
 
-- field: "Short Description"
+- field: "Description"
   required: "No"
 
-- field: "Logo"
+- field: "Logotype"
   required: "No"
   field_type: "image"
 
@@ -12,20 +12,20 @@
   required: "No"
   field_type: "image"
 
-- field: "Text"
+- field: "Body"
   required: "No"
   field_type: "rich-text"
 
-- field: "Web Address"
+- field: "URL"
   required: "No"
 
-- field: "Email Address"
+- field: "E-mail Address"
   required: "No"
 
 - field: "Phone Number"
   required: "No"
 
-- field: "Other Contact Details"
+- field: "Additional Contact Details"
   required: "No"
+  field_type: "rich-text"
   comment: "Used for postal address, visiting address, fax no and other esoteric contact details."
-

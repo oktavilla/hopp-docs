@@ -5,7 +5,7 @@
   required: "No"
   comment: "The role of the contributor. E.g photographer, journalist etc."
 
-- field: "Text"
+- field: "Body"
   required: "No"
   field_type: "rich-text"
   comment: "For biography, presentation, role description etc"
@@ -19,12 +19,12 @@
 - field: "Twitter Handle"
   required: "No"
 
-- field: "Feature Photo"
+- field: "Feature Image"
   required: "No"
   field_type: "image"
   comment: "Used when featured (in e.g opinion pieces)"
 
-- field: "Byline Photo"
+- field: "Byline Image"
   required: "No"
   field_type: "image"
   comment: "Used in standard bylines"
