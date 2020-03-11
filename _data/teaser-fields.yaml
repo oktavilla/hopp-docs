@@ -1,9 +1,0 @@
-- field: "Heading"
-  required: "No"
-
-- field: "Text"
-  required: "No"
-
-- field: "Image"
-  required: "No"
-  field_type: image

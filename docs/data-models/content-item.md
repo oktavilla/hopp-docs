@@ -38,16 +38,9 @@ Meta Data is used to describe or structure the content. Content Items (except st
 | [Brand](brand.md)                                 | No       | Many        |
 | [Contributor](contributor.md)                     | No       | Many        |
 
-## Social Media Promotion Data
+## Promotion & Indexing Data
 
-The Content Item Information Design Templates comes with dedicated social media tags that guarantees great presentation on social media platforms. The content of these tags may be defined specifically or they will default to the data already available on the content item.
+All content items have the same promotion and indexing data no matter which type they are. The data will be used for teasers and internal search results as well as search engine and social media meta data tags on content pages. See the information design template specifications for [Teasers](../information-design-templates/components-and-containers-teaser.md) and [Content Item Pages](../information-design-templates/content-item.md) for more information on how this data will be used.
 
-Editable fields TBD.
-
-## Teaser Data
-
-All content items have the same teaser fields no matter which type they are.
-All teaser fields are optional. The information design templates will use [fallbacks](../information-design-templates/part-teaser.md#teaser-content) if they are not specified.
-
-{% include fields-table.md definition="teaser-fields" %}
+{% include fields-table.md definition="promotion-fields" %}
 

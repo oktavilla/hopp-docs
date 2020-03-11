@@ -18,15 +18,29 @@ A Content Item will have a "context label" above the title. The label will consi
 1. The [Category](../data-models/category.md) of the Content Item.
 2. All [Tags](../data-models/tag.md) of the Content Item that belong to [Tag Groups](../data-models/tag-group.md) defined to be used for Context Labels in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
 
-## Social Media Promotion
+## Social Media Meta Data Tags
 
-The Content Item Templates come with dedicated social media tags that guarantees great presentation on social media platforms. 
+The Content Item Templates come with dedicated social media meta data tags that guarantees great presentation on social media platforms. 
+The content of these tags will be derived from the [Promotion Data](../data-models/content-item.md#promotion--indexing-data). If none, or only partial, promotion data is present the platform will use the following fallbacks:
 
-The content of these tags may have been [specifically defined](../data-models/content-item.md#social-media-promotion-data) or they will default to the available [content item](../data-models/content-item.md) data. 
+* **Title**  
+  The platform will use Promotion Title or fallback to the Content Items Title.
+* **Description**  
+  The platform will use Promotion Text or fallback to the Content Items Lead.
+* **Image**  
+  The platform will use Promotion Image or fallback to the main image of the Content Item. 
+  What the main image is will vary depending on the Content Type.
 
-## Search Engine Promotion
+## Search Engine Meta Data Tags
 
-The Information Design Templates are pre optimised for great visibility in search engines through speed and industry standard use of meta data and micro formats. 
+The Content Item Templates come with dedicated search engine meta data tags that guarantees the content will be indexed correctly and presented well in search engines. The content of these tags will be derived from the appropriate fields of the Content Item:
+
+* **Title**  
+  The platform will use the [Indexing Title](../data-models/content-item.md#promotion--indexing-data) if present. Otherwise it will fallback to the Content Items Title.
+* **Description**  
+  The platform will use the Content Items Lead.
+* **Content Language**  
+  The platform will use the Content Items Language.
 
 ## Sponsorship
 

@@ -1,0 +1,12 @@
+- field: "Indexing Title"
+  required: "No"
+
+- field: "Promotion Title"
+  required: "No"
+
+- field: "Promotion Text"
+  required: "No"
+
+- field: "Promotion Image"
+  required: "No"
+  field_type: image
