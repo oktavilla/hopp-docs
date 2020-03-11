@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Parts"
+title:  "Components & Containers"
 parent: "Information Design Templates"
 has_children: true
 ---
 
-# Parts
+# Components & Containers
 
 Reusable parts.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Header"
-parent: "Framework"
+parent: "Components & Containers"
 grand_parent: "Information Design Templates"
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Ad"
-parent: "Parts"
+parent: "Components & Containers"
 grand_parent: "Information Design Templates"
 ---
 
