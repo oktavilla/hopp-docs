@@ -14,4 +14,3 @@ A generic tag. Used to describe a content item.
 {% include fields-table.md parent_definition="tag-fields" definition="tag-type-keyword-fields" %}
 
 \* Basic [tag field](tag.md#fields)
-

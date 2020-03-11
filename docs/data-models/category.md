@@ -12,3 +12,9 @@ Categories are used to structure and “package” content editorially. Think of
 ## Fields
 
 {% include fields-table.md definition="category-fields" %}
+
+## Meta Data
+
+| Meta Data                                         | Required | One or many |
+|:--------------------------------------------------|:---------|:------------|
+| [Language](content-language.md)                   | Yes      | One         |

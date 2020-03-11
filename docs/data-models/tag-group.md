@@ -12,3 +12,9 @@ Every product will have a set of tag groups defined by the product [configuratio
 ## Fields
 
 {% include fields-table.md definition="tag-group-fields" %}
+
+## Meta Data
+
+| Meta Data                                         | Required | One or many |
+|:--------------------------------------------------|:---------|:------------|
+| [Language](content-language.md)                   | Yes      | One         |

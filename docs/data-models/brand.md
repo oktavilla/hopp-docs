@@ -12,3 +12,9 @@ A brand is a type of meta content that can be used to structure branded content.
 ## Fields
 
 {% include fields-table.md definition="brand-fields" %}
+
+## Meta Data
+
+| Meta Data                                         | Required | One or many |
+|:--------------------------------------------------|:---------|:------------|
+| [Language](content-language.md)                   | Yes      | One         |

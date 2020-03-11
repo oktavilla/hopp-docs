@@ -23,3 +23,9 @@ Besides these basic fields a tag may contain fields specific for its type. See b
 ## Tag Types
 
 {% include sub-items-list.md parent="Tag" %}
+
+## Meta Data
+
+| Meta Data                                         | Required | One or many |
+|:--------------------------------------------------|:---------|:------------|
+| [Language](content-language.md)                   | Yes      | One         |
