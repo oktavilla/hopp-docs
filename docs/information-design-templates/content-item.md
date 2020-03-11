@@ -11,6 +11,13 @@ There is one template for each [Content Variant](../data-models/content-item.md#
 
 Besides content this page may also feature recirculation, [display ads](../data-models/part-ad.md), internal ads (static page teasers) and product services teasers (e.g for subscriptions).
 
+## Context Label
+
+A Content Item will have a "context label" above the title. The label will consist of two parts:
+
+1. The [Category](../data-models/category.md) of the Content Item.
+2. All [Tags](../data-models/tag.md) of the Content Item that belong to [Tag Groups](../data-models/tag-group.md) defined to be used for Context Labels in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
+
 ## Social Media Promotion
 
 The Content Item Templates come with dedicated social media tags that guarantees great presentation on social media platforms. 

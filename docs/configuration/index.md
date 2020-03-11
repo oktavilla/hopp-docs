@@ -27,6 +27,10 @@ It is possible to define preferences for how Content Items of different [types a
 Should publishing date be shown in detail, in relative terms or not at all? Should the teaser image
 be shown above, below or to the right? Etc.
 
+## Content Item Context Label Preferences
+
+It is possible to define what [Tag Groups](../data-models/tag-group.md) that should be used for [Context Labels](../information-design-templates/content-item.md#context-label). 
+
 ## Logo
 
 It's required to specify a logo to be used in the header and throughout the product.
