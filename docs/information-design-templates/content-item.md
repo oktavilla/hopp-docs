@@ -34,14 +34,13 @@ A Content Item may have a set of "context labels" above the title. What these la
   </div>
 </div>
 
-The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels in the Product Configuration.
+The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels. There may also be additonal labels <span class="example-reference">2</span> showing the most relevant tags of the Content Item. Both exemptions and additional labels are defined in the Product Configuration.
 
-Additonal labels <span class="example-reference">2</span>, showing the most relevant tags of the Content Item, may also have been defined. What tags that will be shown is determined by which Tag Groups are mapped to each label in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences). 
+The platform determines what tags to show in an additional label <span class="example-reference">2</span> by looking at:  
+A. The Tag Group(s) mapped to the label in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).  
+B. Available tags on the Content Item.  
 
-* Each label will show tags that belong to *one* specified [Tag Group](../data-models/tag-group.md).
-* It is possible that more than one Tag Group have been specified for a label. In that case they will be processed in the order they are defined as such:
-  * If the Content Item has tags in the *first* Tag Group those tags will be shown.
-  * Tags from a second, third etc Tag Group will *only* be shown if the Content Item does not have any tags in previous groups.
+The label will only be shown if one or several tags on the Content Item (B) belong to the mapped Tag Group (A). Even if more than one Tag Group is defined for a label the platform will only show tags from one group. In this case we look for tags in the mapped groups in order. If no tags are found in the first group we move on to the second one and so on.
 
 ----
 
