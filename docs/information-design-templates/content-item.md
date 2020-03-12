@@ -11,12 +11,39 @@ There is one template for each [Content Variant](../data-models/content-item.md#
 
 Besides content this page may also feature recirculation, [display ads](../data-models/part-ad.md), internal ads (static page teasers) and product services teasers (e.g for subscriptions).
 
+----
+
 ## Context Label
 
-A Content Item will have a "context label" above the title. The label will consist of two parts:
+A Content Item may have a set of "context labels" above the title. What these labels show depends on the [Product Configuration](../configuration/index.md#content-item-context-label-preferences) and the [Meta Data](../data-models/content-item.md#meta-data) of the Content Item.
 
-1. The [Category](../data-models/category.md) of the Content Item.
-2. All [Tags](../data-models/tag.md) of the Content Item that belong to [Tag Groups](../data-models/tag-group.md) defined to be used for Context Labels in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
+<div class="example">
+  <div class="example-context-label-group">
+    <div class="example-context-label-part">
+      <span class="example-context-label">Category <span class="example-reference">1</span></span>
+    </div>
+    <div class="example-context-label-part">
+      <span class="example-context-label">Tag, Tag <span class="example-reference">2</span></span>
+    </div>
+    <div class="example-context-label-part">
+      <span class="example-context-label">Tag <span class="example-reference">2</span></span>
+    </div>
+  </div>
+  <div class="example-title">
+    Content Item Title
+  </div>
+</div>
+
+The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels in the Product Configuration.
+
+Additonal labels <span class="example-reference">2</span>, showing the most relevant tags of the Content Item, may also have been defined. What tags that will be shown is determined by which Tag Groups are mapped to each label in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences). 
+
+* Each label will show tags that belong to *one* specified [Tag Group](../data-models/tag-group.md).
+* It is possible that more than one Tag Group have been specified for a label. In that case they will be processed in the order they are defined as such:
+  * If the Content Item has tags in the *first* Tag Group those tags will be shown.
+  * Tags from a second, third etc Tag Group will *only* be shown if the Content Item does not have any tags in previous groups.
+
+----
 
 ## Sharing
 
@@ -26,7 +53,11 @@ Every Content Item have "share buttons". These services are supported by default
 * Twitter
 * E-mail
 
-## Social Media Meta Data Tags
+----
+
+## Meta Data Tags
+
+### Social Media
 
 The Content Item Templates come with dedicated social media meta data tags that guarantees great presentation on social media platforms. 
 The content of these tags will be derived from the [Promotion Data](../data-models/content-item.md#promotion--indexing-data). If none, or only partial, promotion data is present the platform will use the following fallbacks:
@@ -39,7 +70,7 @@ The content of these tags will be derived from the [Promotion Data](../data-mode
   The platform will use Promotion Image or fallback to the main image of the Content Item. 
   What the main image is will vary depending on the Content Type.
 
-## Search Engine Meta Data Tags
+### Search Engines
 
 The Content Item Templates come with dedicated search engine meta data tags that guarantees the content will be indexed correctly and presented well in search engines. The content of these tags will be derived from the appropriate fields of the Content Item:
 
@@ -50,9 +81,13 @@ The Content Item Templates come with dedicated search engine meta data tags that
 * **Content Language**  
   The platform will use the Content Items Language.
 
+----
+
 ## Sponsorship
 
 When a content item has a relationship to one or several [brands](../data-models/brand.md) that is called a sponsorship. All sponsors will be shown on the content item and link to the corresponding [brand page](brand.md).
+
+----
 
 ## Recirculation
 

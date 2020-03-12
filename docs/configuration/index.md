@@ -29,7 +29,10 @@ be shown above, below or to the right? Etc.
 
 ## Content Item Context Label Preferences
 
-It is possible to define what [Tag Groups](../data-models/tag-group.md) that should be used for [Context Labels](../information-design-templates/content-item.md#context-label). 
+Two settings are possible:
+
+* Categories that should *not* be shown as [Context Labels](../information-design-templates/content-item.md#context-label).
+* Additional [Context Labels](../information-design-templates/content-item.md#context-label) for specific [Tag Groups](../data-models/tag-group.md). Each label may in this case have a list of Tag Groups that will be used in the order specified.
 
 ## Logo
 
