@@ -3,7 +3,7 @@
 
 - field: "Image"
   required: "No"
-  field_type: "image"
+  reference: "image"
 
 - field: "Description"
   required: "No"

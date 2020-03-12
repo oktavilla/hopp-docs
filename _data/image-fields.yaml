@@ -1,0 +1,13 @@
+- field: "Image"
+  required: "Yes"
+  field_type: "image"
+
+- field: "Alternative Text"
+  required: "No"
+
+- field: "Caption"
+  required: "No"
+
+- field: "Attribution"
+  required: "No"
+  reference: "contributor"

@@ -34,7 +34,7 @@
 
 - field: "Image"
   required: "No"
-  field_type: "image"
+  reference: "image"
   comment: "Used on the brand page."
 
 - field: "Body"

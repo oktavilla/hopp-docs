@@ -1,6 +1,6 @@
 - field: "Main Image"
   required: "No"
-  field_type: image
+  reference: image
 
 - field: "Body"
   required: "No"
