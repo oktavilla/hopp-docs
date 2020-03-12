@@ -30,7 +30,22 @@ A Content Item may have a set of "context labels" above the title. What these la
     </div>
   </div>
   <div class="example-title">
-    Content Item Title
+    <span class="example-text example-text-15"></span>
+    <span class="example-text example-text-7"></span>
+    <span class="example-text example-text-12"></span>
+  </div>
+  <div class="example-body">
+    <span class="example-text example-text-3"></span>
+    <span class="example-text example-text-7"></span>
+    <span class="example-text example-text-15"></span>
+    <span class="example-text example-text-7"></span>
+    <span class="example-text example-text-6"></span>
+    <span class="example-text example-text-5"></span>
+    <span class="example-text example-text-12"></span>
+    <span class="example-text example-text-7"></span>
+    <span class="example-text example-text-15"></span>
+    <span class="example-text example-text-7"></span>
+    <span class="example-text example-text-12"></span>
   </div>
 </div>
 
