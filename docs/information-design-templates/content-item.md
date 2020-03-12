@@ -18,6 +18,14 @@ A Content Item will have a "context label" above the title. The label will consi
 1. The [Category](../data-models/category.md) of the Content Item.
 2. All [Tags](../data-models/tag.md) of the Content Item that belong to [Tag Groups](../data-models/tag-group.md) defined to be used for Context Labels in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
 
+## Sharing
+
+Every Content Item have "share buttons". These services are supported by default:
+
+* Facebook
+* Twitter
+* E-mail
+
 ## Social Media Meta Data Tags
 
 The Content Item Templates come with dedicated social media meta data tags that guarantees great presentation on social media platforms. 
