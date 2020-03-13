@@ -6,10 +6,14 @@ parent: "Information Design Templates"
 ---
 
 # Content Item Page
+{: .no_toc }
 
 There is one template for each [Content Variant](../data-models/content-item.md#content-variants). Exactly what fields and data that is available is defined by the [Content Type Schema](../data-models/content-item.md).
 
 Besides content this page may also feature recirculation, [display ads](../data-models/part-ad.md), internal ads (static page teasers) and product services teasers (e.g for subscriptions).
+
+1. TOC
+{:toc}
 
 ----
 
@@ -30,22 +34,10 @@ A Content Item may have a set of "context labels" above the title. What these la
     </div>
   </div>
   <div class="example-title">
-    <span class="example-text example-text-15"></span>
-    <span class="example-text example-text-7"></span>
-    <span class="example-text example-text-12"></span>
+    {% include example-title.html %}
   </div>
   <div class="example-body">
-    <span class="example-text example-text-3"></span>
-    <span class="example-text example-text-7"></span>
-    <span class="example-text example-text-15"></span>
-    <span class="example-text example-text-7"></span>
-    <span class="example-text example-text-6"></span>
-    <span class="example-text example-text-5"></span>
-    <span class="example-text example-text-12"></span>
-    <span class="example-text example-text-7"></span>
-    <span class="example-text example-text-15"></span>
-    <span class="example-text example-text-7"></span>
-    <span class="example-text example-text-12"></span>
+    {% include example-text.html %}
   </div>
 </div>
 
@@ -66,6 +58,45 @@ That data will be processed in this order:
 7. We try the next group in (A) and try (2) again.
 
 This will result in 0-(C) additional labels.
+
+----
+
+## Title & Lead
+
+The title and lead on the Content Item Page will always be based on the main Title and Lead fields. 
+Promotion & Indexing Data will never be used in this context.
+
+----
+
+## Sponsorship
+
+When a content item has a relationship to one or several [brands](../data-models/brand.md) that is called a sponsorship.
+
+<div class="example">
+  <div class="example-title">
+    {% include example-title.html %}
+  </div>
+  <div class="example-sponsor">
+    <div class="example-sponsor-header">Sponsored by <span class="example-reference">1</span></div>
+    <div class="example-sponsor-brand">
+      <div class="example-image example-image-60"></div>
+      <span class="example-text example-text-12"></span>
+      <span class="example-text example-text-5"></span>
+    </div>
+    <div class="example-sponsor-brand">
+      <div class="example-image example-image-60"></div>
+      <span class="example-text example-text-7"></span>
+      <span class="example-text example-text-5"></span>
+    </div>
+    <span class="example-reference example-reference-fixed-right">2</span>
+  </div>
+  <div class="example-body">
+    {% include example-text.html %}
+  </div>
+</div>
+
+* The list of sponsors will be clearly marked <span class="example-reference">1</span>.
+* The sponsors is represented by their Brand Names and Logos <span class="example-reference">2</span> and link to their [Brand Pages](brand.md).
 
 ----
 
@@ -104,12 +135,6 @@ The Content Item Templates come with dedicated search engine meta data tags that
   The platform will use the Content Items Lead.
 * **Content Language**  
   The platform will use the Content Items Language.
-
-----
-
-## Sponsorship
-
-When a content item has a relationship to one or several [brands](../data-models/brand.md) that is called a sponsorship. All sponsors will be shown on the content item and link to the corresponding [brand page](brand.md).
 
 ----
 

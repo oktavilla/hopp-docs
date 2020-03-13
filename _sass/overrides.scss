@@ -1,3 +1,73 @@
+@mixin placeholder($width:230px, $height:230px, $bgcolor:#ccc, $triangle-color: #c0c0c0, $gutter-size: 3px) {
+  position: relative;
+  background: $bgcolor;
+  z-index:1;
+  width:$width;
+  text-align:center;
+  height:$height;
+  span {
+    box-shadow: 0 0 2px 0 $bgcolor inset;
+    position:relative;
+    height: $height;
+    width: $width;
+    display:block;
+    font-size: 12px;
+    color: #000;
+    line-height: $height;
+    text-align: center;
+    z-index:2;
+    &:after {
+      position: absolute;
+      top:$gutter-size*2;
+      left: $gutter-size;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-top:  -$gutter-size*2 + $height/2 solid transparent;
+      border-bottom:  -$gutter-size*2 + $height/2 solid transparent;
+      border-left:  -$gutter-size*2 + $width/2 solid $triangle-color;
+      z-index:-1;
+    }
+    &:before {
+      position: absolute;
+      top: $gutter-size*2;
+      right: $gutter-size;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-top: -$gutter-size*2 + $height/2 solid transparent;
+      border-bottom: -$gutter-size*2 + $height/2 solid transparent;
+      border-right: -$gutter-size*2 +$width/2 solid $triangle-color;
+      z-index:-1;
+    }
+  }
+
+  &:after {
+    position: absolute;
+    top:$gutter-size;
+    left: $gutter-size*2;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: -$gutter-size*2 + $width/2 solid transparent;
+    border-right: -$gutter-size*2 + $width/2 solid transparent;
+    border-top: -$gutter-size*2 + $height/2 solid $triangle-color;
+    z-index:-1;
+  }
+  &:before {
+    position: absolute;
+    left: $gutter-size*2;
+    bottom: $gutter-size;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: -$gutter-size*2 + $width/2 solid transparent;
+    border-right: -$gutter-size*2 +  $width/2 solid transparent;
+    border-bottom: -$gutter-size*2 +  $height/2 solid $triangle-color;
+    z-index:-1;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700');
 
 h1, h2, h3, .navigation-list-link {
@@ -56,80 +126,116 @@ h3 {
 }
 
 
+$example-scale: 0.75;
+
 .example {
-  @extend .mb-lg-4;
-  transform: scale(0.75);
+  max-width: 500px;
   font-family: 'Work Sans', sans-serif;
   color: $grey-lt-300;
   border: 1px solid $grey-lt-000;
-  border-radius: 10px;
-  padding: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 .example-reference {
   display: inline-block;
-  font-size: 14px;
-  line-height: 18px;
-  width: 18px;
+  font-size: 14px*$example-scale;
+  line-height: 18px*$example-scale;
+  width: 18px*$example-scale;
   text-align: center;
   background-color: rgba(0,0,0,.5);
   color: #fff;
   border-radius: 50%;
-}
 
+  &-fixed-right {
+    position: absolute;
+    top: 50%;
+    right: 40px*$example-scale;
+  }
+}
 .example-context-label-group {
   overflow: hidden;
 }
 .example-context-label-part {
   float: left;
-  margin: 0 5px 0 0;
+  margin: 0 5px*$example-scale 0 0;
 }
 .example-context-label {
   @extend .mb-lg-4;
   display: block;
-  border: 1px solid $green-200;
+  border: 1px*$example-scale solid $green-200;
   background-color: $green-200;
-  border-radius: 2px;
-  padding: 3px 7px;
+  border-radius: 2px*$example-scale;
+  padding: 3px*$example-scale 7px*$example-scale;
   color: #fff;
+  &.example-text {
+    background-color: $green-200;
+  }
+}
+.example-sponsor {
+  position: relative;
+  margin: 10px*$example-scale 0 0 0;
+  max-width: 400px;
+  padding: 10px*$example-scale;
+  border-radius: 2px*$example-scale;
+  border: 1px*$example-scale solid $grey-lt-300;
+}
+.example-sponsor-brand {
+  overflow: hidden;
+  margin: 10px*$example-scale 0 0 0;
+
+  .example-image {
+    float: left;
+    margin: 0 10px*$example-scale 0 0;
+  }
+}
+.example-sponsor-header {
+  color: $green-200;
+}
+.example-image {
+  &-60 {
+    @include placeholder(60px*$example-scale, 60px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  }
 }
 .example-title {
-  margin: 10px 0 0 0;
+  margin: 10px*$example-scale 0 0 0;
   .example-text {
-    height: 45px;
-    background: darken($grey-lt-300, 10);
+    height: 45px*$example-scale;
+    background-color: darken($grey-lt-300, 10);
   }
 }
 .example-body {
-  margin: 20px 0 0 0;
+  margin: 20px*$example-scale 0 0 0;
 }
 
 .example-text {
   display: inline-block;
-  margin: 0 2px 0 0;
-  border-radius: 2px;
-  background: $grey-lt-300;
-  width: 100px;
-  height: 20px;
+  margin: 0 2px*$example-scale 0 0;
+  border-radius: 2px*$example-scale;
+  background-color: $grey-lt-300;
+  width: 100px*$example-scale;
+  height: 20px*$example-scale;
 
   &-3 {
-    width: 60px;
+    width: 60px*$example-scale;
   }
   &-5 {
-    width: 100px;
+    width: 100px*$example-scale;
   }
   &-6 {
-    width: 120px;
+    width: 120px*$example-scale;
   }
   &-12 {
-    width: 240px;
+    width: 240px*$example-scale;
   }
   &-15 {
-    width: 300px;
+    width: 300px*$example-scale;
   }
   &-20 {
-    width: 400px;
+    width: 400px*$example-scale;
   }
 }
+
+
+
