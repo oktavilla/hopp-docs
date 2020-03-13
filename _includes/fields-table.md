@@ -40,14 +40,21 @@
       <td>
         {% if entry.field_type %}
           {% assign file_name = entry.field_type | prepend: 'field-type-' | append: '.md' %}
-          {% assign field_type_page = site.pages | where: 'name', file_name %}
+          {% assign field_type_pages = site.pages | where: 'parent', 'Field Types' %}
+          {% assign field_type_page = field_type_pages | where: 'name', file_name %}
           {% assign field_type_title = field_type_page[0].title %}
           <a href="{{entry.field_type | prepend: "../field-types/field-type-" + site.base_url}}.html">{{ field_type_title | replace: " Field", "" }}</a>
         {% elsif entry.reference %}
           {% assign file_name = entry.reference | append: '.md' %}
-          {% assign data_model_page = site.pages | where: 'name', file_name %}
+          {% assign data_model_pages = site.pages | where: 'parent', 'Data Models' %}
+          {% assign data_model_page = data_model_pages | where: 'name', file_name %}
           {% assign data_model_title = data_model_page[0].title %}
-          Reference to <a href="{{entry.reference | prepend: "../data-models/" + site.base_url}}.html">{{ data_model_title }}</a>
+          {% if entry.reference_type == "many" %}
+            List of references to 
+          {% else %}
+            Reference to 
+          {% endif %}
+          <a href="{{entry.reference | prepend: "../data-models/" + site.base_url}}.html">{{ data_model_title }}</a>
         {% else %}
           String
         {% endif %}
