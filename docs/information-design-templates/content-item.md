@@ -49,13 +49,23 @@ A Content Item may have a set of "context labels" above the title. What these la
   </div>
 </div>
 
-The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels. There may also be additonal labels <span class="example-reference">2</span> showing the most relevant tags of the Content Item. Both exemptions and additional labels are defined in the Product Configuration.
+The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels. There may also be additonal labels <span class="example-reference">2</span> showing the most relevant tags of the Content Item. Both exemptions and additional labels are defined in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
 
-The platform determines what tags to show in an additional label <span class="example-reference">2</span> by looking at:  
-A. The Tag Group(s) mapped to the label in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).  
+The platform determines what tags to show in additional labels <span class="example-reference">2</span> by looking at:   
+A. The list of Tag Groups defined in the Context Label Product Configuration.  
 B. Available tags on the Content Item.  
+C. The maximum number of labels to show as defined in the Context Label Product Configuration.  
 
-The label will only be shown if one or several tags on the Content Item (B) belong to the mapped Tag Group (A). Even if more than one Tag Group is defined for a label the platform will only show tags from one group. In this case we look for tags in the mapped groups in order. If no tags are found in the first group we move on to the second one and so on.
+That data will be processed in this order:
+1. The platform will look at the first group in (A).
+2. We look for tags on the Content Item (B) that belong to that group. 
+3. If no tag is matched we try the next group in (A) and try (2) again.
+4. If one or more tags match we will show a label.
+5. If the maximum number of labels (C) is reached we stop.
+6. If we have run though all groups in (A) we stop.
+7. We try the next group in (A) and try (2) again.
+
+This will result in 0-(C) additional labels.
 
 ----
 

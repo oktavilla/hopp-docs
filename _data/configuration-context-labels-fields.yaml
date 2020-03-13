@@ -1,0 +1,16 @@
+- field: "Excluded Categories"
+  required: "No"
+  reference: "category"
+  reference_type: "many"
+  comment: "Categories that should NOT be used in labels"
+
+- field: "Maximum Number Of Tag Context Labels"
+  required: "No"
+  field_type: "integer"
+  comment: "Maximum number of Tag Context Labels. Defaults to 0."
+
+- field: "Tag Groups"
+  required: "No"
+  reference: "tag-group"
+  reference_type: "many"
+  comment: "An ordered list of Tag Groups used to determine what tags should be shown in Context Labels"
