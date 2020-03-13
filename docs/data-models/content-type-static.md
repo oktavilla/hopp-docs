@@ -19,9 +19,11 @@ A static page is similar to other types of content and is defined as a content t
 
 \* Basic [Content Item field](content-item.md#fields)
 
-## Teaser Data
+## Promotion & Indexing Data
 
-Static pages have the same [“teaser data”](content-item.md#teaser-data) as other content types.
+{% include fields-table.md parent_definition="promotion-fields" %}
+
+* Static pages have the same [“Promotion & Indexing Data”](content-item.md#promotion--indexing-data) as other content types.
 
 ## Content Variants
 

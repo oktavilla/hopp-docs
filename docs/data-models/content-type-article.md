@@ -15,9 +15,11 @@ Articles are probably the most common storytelling medium on the platform. Artic
 
 \* Basic [Content Item field](content-item.md#fields)
 
-## Teaser Data
+## Promotion & Indexing Data
 
-Articles have the same [“teaser data”](content-item.md#teaser-data) as other content types.
+{% include fields-table.md parent_definition="promotion-fields" %}
+
+* Articles have the same [“Promotion & Indexing Data”](content-item.md#promotion--indexing-data) as other content types.
 
 ## Content Variants
 * Long Form

@@ -1,0 +1,8 @@
+- field: "Cover Image"
+  required: "No"
+  reference: image
+
+- field: "Body"
+  required: "No"
+  field_type: content-blocks
+  comment: "All Content Blocks are allowed"
