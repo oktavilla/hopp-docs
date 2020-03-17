@@ -12,7 +12,7 @@ There is one page for each Tag. The content of a tag page is determined by its [
 <div class="example">
   <div class="example-header">
     <div class="example-title">
-      <div class="example-image example-image-100"></div>
+      {% include example-image.html image_size="100" %}
       {% include example-title.html %} <span class="example-reference">1</span>
     </div>
     <div class="example-navigation">
@@ -24,18 +24,9 @@ There is one page for each Tag. The content of a tag page is determined by its [
   </div>
   <div class="example-body">
     <div class="example-teaser-list">
-      <div class="example-teaser">
-        <div class="example-image example-image-55"></div>
-        {% include example-text-medium.html %}
-      </div>
-      <div class="example-teaser">
-        <div class="example-image example-image-55"></div>
-        {% include example-text-medium.html %}
-      </div>
-      <div class="example-teaser">
-        <div class="example-image example-image-55"></div>
-        {% include example-text-medium.html %}
-      </div>
+      {% include example-teaser.html %}
+      {% include example-teaser.html %}
+      {% include example-teaser.html %}
       <span class="example-reference example-reference-fixed-right">3</span>
     </div>
   </div>

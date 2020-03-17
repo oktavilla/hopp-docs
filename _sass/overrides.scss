@@ -204,7 +204,7 @@ $example-scale: 0.75;
 .example-header {
   overflow: hidden;
   padding-bottom: 10px*$example-scale;
-  border-bottom: 1px solid $grey-lt-300;
+  border-bottom: 2px solid $grey-lt-300;
 
   .example-image {
     float: right;

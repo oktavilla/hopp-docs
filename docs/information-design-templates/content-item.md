@@ -24,13 +24,13 @@ A Content Item may have a set of "context labels" above the title. What these la
 <div class="example">
   <div class="example-context-label-group">
     <div class="example-context-label-part">
-      <span class="example-context-label">Category <span class="example-reference">1</span></span>
+      <span class="example-context-label">Category {% include example-reference.html number="1" %}</span>
     </div>
     <div class="example-context-label-part">
-      <span class="example-context-label">Tag, Tag <span class="example-reference">2</span></span>
+      <span class="example-context-label">Tag, Tag {% include example-reference.html number="2" %}</span>
     </div>
     <div class="example-context-label-part">
-      <span class="example-context-label">Tag <span class="example-reference">2</span></span>
+      <span class="example-context-label">Tag {% include example-reference.html number="2" %}</span>
     </div>
   </div>
   <div class="example-title">
@@ -41,9 +41,9 @@ A Content Item may have a set of "context labels" above the title. What these la
   </div>
 </div>
 
-The Content Item [Category](../data-models/category.md) will always be shown as the first label <span class="example-reference">1</span> unless the current one is specifically exempt from being shown in context labels. There may also be additonal labels <span class="example-reference">2</span> showing the most relevant tags of the Content Item. Both exemptions and additional labels are defined in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
+The Content Item [Category](../data-models/category.md) will always be shown as the first label {% include example-reference.html number="1" %} unless the current one is specifically exempt from being shown in context labels. There may also be additonal labels {% include example-reference.html number="2" %} showing the most relevant tags of the Content Item. Both exemptions and additional labels are defined in the [Product Configuration](../configuration/index.md#content-item-context-label-preferences).
 
-The platform determines what tags to show in additional labels <span class="example-reference">2</span> by looking at:   
+The platform determines what tags to show in additional labels {% include example-reference.html number="2" %} by looking at:   
 A. The list of Tag Groups defined in the Context Label Product Configuration.  
 B. Available tags on the Content Item.  
 C. The maximum number of labels to show as defined in the Context Label Product Configuration.  
@@ -74,14 +74,14 @@ When a content item has a relationship to one or several [brands](../data-models
 
 <div class="example">
   <div class="example-sponsor">
-    <div class="example-sponsor-header">Sponsored by <span class="example-reference">1</span></div>
+    <div class="example-sponsor-header">Sponsored by {% include example-reference.html number="1" %}</div>
     <div class="example-sponsor-brand">
-      <div class="example-image example-image-55"></div>
+      {% include example-image.html image_size="55" %}
     </div>
     <div class="example-sponsor-brand">
-      <div class="example-image example-image-55"></div>
+      {% include example-image.html image_size="55" %}
     </div>
-    <span class="example-reference example-reference-fixed-right">2</span>
+    {% include example-reference.html number="2" fixed="true" %}
   </div>
   <div class="example-title">
     {% include example-title.html %}
@@ -91,8 +91,8 @@ When a content item has a relationship to one or several [brands](../data-models
   </div>
 </div>
 
-* The list of sponsors will be clearly marked <span class="example-reference">1</span>.
-* The sponsors is represented by their Brand Logos <span class="example-reference">2</span> and link to their [Brand Pages](brand.md).
+* The list of sponsors will be clearly marked {% include example-reference.html number="1" %}.
+* The sponsors is represented by their Brand Logos {% include example-reference.html number="2" %} and link to their [Brand Pages](brand.md).
 
 ----
 
