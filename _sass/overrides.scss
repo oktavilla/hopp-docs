@@ -210,6 +210,10 @@ $example-scale: 0.75;
     float: right;
     margin: 0 0 0 10px*$example-scale;   
   }
+
+  .example-description {
+    margin-top: 10px*$example-scale;
+  }
 }
 .example-navigation {
   padding-top: 10px*$example-scale;
