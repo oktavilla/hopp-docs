@@ -73,22 +73,18 @@ Promotion & Indexing Data will never be used in this context.
 When a content item has a relationship to one or several [brands](../data-models/brand.md) that is called a sponsorship.
 
 <div class="example">
-  <div class="example-title">
-    {% include example-title.html %}
-  </div>
   <div class="example-sponsor">
     <div class="example-sponsor-header">Sponsored by <span class="example-reference">1</span></div>
     <div class="example-sponsor-brand">
       <div class="example-image example-image-60"></div>
-      <span class="example-text example-text-12"></span>
-      <span class="example-text example-text-5"></span>
     </div>
     <div class="example-sponsor-brand">
       <div class="example-image example-image-60"></div>
-      <span class="example-text example-text-7"></span>
-      <span class="example-text example-text-5"></span>
     </div>
     <span class="example-reference example-reference-fixed-right">2</span>
+  </div>
+  <div class="example-title">
+    {% include example-title.html %}
   </div>
   <div class="example-body">
     {% include example-text.html %}
@@ -96,7 +92,7 @@ When a content item has a relationship to one or several [brands](../data-models
 </div>
 
 * The list of sponsors will be clearly marked <span class="example-reference">1</span>.
-* The sponsors is represented by their Brand Names and Logos <span class="example-reference">2</span> and link to their [Brand Pages](brand.md).
+* The sponsors is represented by their Brand Logos <span class="example-reference">2</span> and link to their [Brand Pages](brand.md).
 
 ----
 

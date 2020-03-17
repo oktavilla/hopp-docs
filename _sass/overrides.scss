@@ -175,18 +175,18 @@ $example-scale: 0.75;
 }
 .example-sponsor {
   position: relative;
-  margin: 10px*$example-scale 0 0 0;
+  overflow: hidden;
+  margin: 0 0 20px*$example-scale 0;
   max-width: 400px;
   padding: 10px*$example-scale;
   border-radius: 2px*$example-scale;
   border: 1px*$example-scale solid $grey-lt-300;
 }
 .example-sponsor-brand {
-  overflow: hidden;
+  float: left;
   margin: 10px*$example-scale 0 0 0;
 
   .example-image {
-    float: left;
     margin: 0 10px*$example-scale 0 0;
   }
 }
