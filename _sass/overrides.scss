@@ -194,8 +194,47 @@ $example-scale: 0.75;
   color: $green-200;
 }
 .example-image {
-  &-60 {
-    @include placeholder(60px*$example-scale, 60px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  &-55 {
+    @include placeholder(55px*$example-scale, 55px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  }
+  &-100 {
+    @include placeholder(100px*$example-scale, 100px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  }
+}
+.example-header {
+  overflow: hidden;
+  padding-bottom: 10px*$example-scale;
+  border-bottom: 1px solid $grey-lt-300;
+
+  .example-image {
+    float: right;
+    margin: 0 0 0 10px*$example-scale;   
+  }
+}
+.example-navigation {
+  padding-top: 10px*$example-scale;
+  margin-top: 10px*$example-scale;
+  border-top: 1px dashed $grey-lt-300;
+
+  .example-navigation-item {
+    display: inline-block;
+    margin: 10px*$example-scale 2px*$example-scale 0 0;
+    width: 120px*$example-scale;
+    height: 20px*$example-scale;
+    background-color: $blue-000;
+  }
+}
+.example-teaser-list {
+  position: relative;
+  overflow: hidden;
+}
+.example-teaser {
+  overflow: hidden;
+  margin-top: 10px*$example-scale;
+
+  .example-image {
+    float: left;
+    margin: 0 10px*$example-scale 0 0;   
   }
 }
 .example-title {

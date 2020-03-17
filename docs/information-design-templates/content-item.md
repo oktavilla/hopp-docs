@@ -76,10 +76,10 @@ When a content item has a relationship to one or several [brands](../data-models
   <div class="example-sponsor">
     <div class="example-sponsor-header">Sponsored by <span class="example-reference">1</span></div>
     <div class="example-sponsor-brand">
-      <div class="example-image example-image-60"></div>
+      <div class="example-image example-image-55"></div>
     </div>
     <div class="example-sponsor-brand">
-      <div class="example-image example-image-60"></div>
+      <div class="example-image example-image-55"></div>
     </div>
     <span class="example-reference example-reference-fixed-right">2</span>
   </div>
