@@ -9,7 +9,7 @@
 - field: "Logotype"
   required: "No"
   field_type: "image"
-  comment: "The brand logo."
+  comment: "The brand logo. Must be square."
 
 - field: "URL"
   required: "No"
