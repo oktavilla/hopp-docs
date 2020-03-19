@@ -43,7 +43,7 @@ A [standard category page](category.md) can be “replaced” with a page that a
 
 The category page will have filters instead of ordinary navigation {% include example-reference.html number="1" %}. In case the category have sub categories those will be "hidden" (as there's no navigation) but all content will be available and filterable from this page.
 
-Filtering is set up by specifying one or several Tag Groups in the [product configuration](../configuration/index.md#filtered-category-pages). Each Tag Group will show up as a set of filters with the Tag Group name as the label {% include example-reference.html number="2" %} and all belonging tags as options. Each set will have the option "all" pre selected in the UI.
+Filtering is set up by specifying one or several Tag Groups in the [product configuration](../configuration/index.md#categories). Each Tag Group will show up as a set of filters with the Tag Group name as the label {% include example-reference.html number="2" %} and all belonging tags as options. Each set will have the option "all" pre selected in the UI.
 
 Toggling one or several tags in a filter set will update the content item list {% include example-reference.html number="3" %} to only contain items related to the selected tags. This will untoggle the "all" option of the corresponding filter set. Toggling the "all" option again will effectively untoggle all selected filters of that set.
 

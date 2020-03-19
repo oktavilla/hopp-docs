@@ -1,4 +1,5 @@
 ---
+group: "data-models"
 layout: default
 title:  "Article"
 parent: "Content Item"

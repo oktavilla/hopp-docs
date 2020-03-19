@@ -31,4 +31,4 @@ A tag group page will list all its tags.
 </div>
 
 * A tag group page will show name, image and description {% include example-reference.html number="1" %}.
-* A tag group page will always list all tags thart belong to it (latest first) {% include example-reference.html number="2" %}.
+* A tag group page will always list all tags that belong to it (latest first) {% include example-reference.html number="2" %}.

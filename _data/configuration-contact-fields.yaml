@@ -1,0 +1,14 @@
+- field: "Address type/name"
+  required: "No"
+
+- field: "Recipient"
+  required: "No"
+
+- field: "Post Office Box Number"
+  required: "No"
+
+- field: "Postal Code"
+  required: "No"
+
+- field: "Address Locality"
+  required: "No"

@@ -1,0 +1,6 @@
+- field: "Identifier"
+  required: "Yes"
+
+- field: "Allowed Tag Type"
+  required: "Yes"
+  reference: tag-type

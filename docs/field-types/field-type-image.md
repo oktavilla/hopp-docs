@@ -1,4 +1,5 @@
 ---
+group: "field-type"
 layout: default
 title:  "Image Field"
 parent: "Field Types"

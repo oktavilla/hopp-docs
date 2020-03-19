@@ -1,4 +1,5 @@
 ---
+group: "field-type"
 layout: default
 title:  "Integer Field"
 parent: "Field Types"
@@ -6,4 +7,4 @@ parent: "Field Types"
 
 # Integer Field
 
-{% include wip.md %}
+It's a number!

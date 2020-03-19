@@ -1,4 +1,5 @@
 ---
+group: "data-models"
 layout: default
 title:  "Curated Content Mix"
 nav_order: 50

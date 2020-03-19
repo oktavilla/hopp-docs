@@ -7,4 +7,3 @@ has_children: true
 
 # Field Types
 
-{% include wip.md %}

@@ -1,4 +1,5 @@
 ---
+group: "data-models"
 layout: default
 title:  "Static"
 parent: "Content Item"

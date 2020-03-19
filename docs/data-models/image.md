@@ -1,4 +1,5 @@
 ---
+group: "data-models"
 layout: default
 title:  "Image"
 nav_order: 50

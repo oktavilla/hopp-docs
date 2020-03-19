@@ -1,0 +1,5 @@
+- field: "Content Languages"
+  required: "Yes"
+  reference: "content-language"
+  reference_type: "many"
+  comment: "The first (or only) Content Language defined will be used as the default"

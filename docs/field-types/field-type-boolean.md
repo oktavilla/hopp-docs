@@ -1,9 +1,9 @@
 ---
-layout: default
+group: "field-type"
 title:  "Boolean Field"
 parent: "Field Types"
 ---
 
 # Boolean Field
 
-{% include wip.md %}
+True or False. Nothing more, nothing less.

@@ -1,0 +1,12 @@
+- field: "Identifier"
+  required: "Yes"
+
+- field: "Use Filtered Category Page"
+  required: "No"
+  field_type: "boolean"
+
+- field: "Tag Groups for Filters"
+  required: "No"
+  reference: "tag-group"
+  reference_type: "many"
+  comment: "An ordered list of Tag Groups used to determine what tags should be shown as filter options on a Filtered Category Page"

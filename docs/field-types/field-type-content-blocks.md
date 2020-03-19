@@ -1,4 +1,5 @@
 ---
+group: "field-type"
 layout: default
 title:  "Content Blocks Field"
 parent: "Field Types"

@@ -1,4 +1,4 @@
-- field: "Contributors"
+- field: "Responsible Parties"
   required: "No"
   reference: "contributor"
   reference_type: "many"

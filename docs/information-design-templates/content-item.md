@@ -136,4 +136,11 @@ The Content Item Templates come with dedicated search engine meta data tags that
 
 ## Recirculation
 
-TBD
+{% include wip.md %}
+
+----
+
+## Ads
+
+{% include wip.md %}
+

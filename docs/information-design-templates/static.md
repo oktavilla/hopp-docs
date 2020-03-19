@@ -8,3 +8,5 @@ parent: "Information Design Templates"
 # Static Page
 
 Static pages are used for “non editorial” content like about-pages etc.
+
+{% include wip.md %}

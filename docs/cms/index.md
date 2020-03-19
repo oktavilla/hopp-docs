@@ -8,6 +8,8 @@ nav_order: 80
 
 This part of the documentation deals with how things should work back office.
 
+{% include wip.md %}
+
 ## Platform User Access & Management
 
 * A Platform User is defined as someone that could be granted access to some part of the platform.

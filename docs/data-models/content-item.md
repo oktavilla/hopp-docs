@@ -1,4 +1,5 @@
 ---
+group: "data-models"
 layout: default
 title:  "Content Item"
 nav_order: 1
