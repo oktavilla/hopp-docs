@@ -33,7 +33,6 @@ be shown above, below or to the right? Etc.
 
 {% include fields-table.md definition="configuration-context-labels-fields" %}
 
-
 ## Logo
 
 It's required to specify a logo to be used in the header and throughout the product.
@@ -53,9 +52,9 @@ For each contact address you may specify:
 
 ## Responsible parties
 
-It is possible to define any number of responsible parties for an editorial product.
-A responsbile party is defined as a role (free text) and an id of a specific contributor.
-This information will be shown on the [contributors](../information-design-templates/contributors.md) page and in the footer.
+It is possible to define a number of responsible parties for an editorial product.
+This is simply an ordered list of contributor id's. These contributors will be shown 
+first on the [contributors](../information-design-templates/contributors.md) page and in the footer.
 
 ## Footer Content
 
