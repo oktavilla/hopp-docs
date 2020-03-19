@@ -74,7 +74,7 @@ When a content item has a relationship to one or several [brands](../data-models
 
 <div class="example">
   <div class="example-sponsor">
-    <div class="example-sponsor-header">Sponsored by {% include example-reference.html number="1" %}</div>
+    <div class="example-group-header">Sponsored by {% include example-reference.html number="1" %}</div>
     <div class="example-sponsor-brand">
       {% include example-image.html image_size="55" %}
     </div>

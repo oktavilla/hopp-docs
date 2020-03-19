@@ -33,6 +33,15 @@ be shown above, below or to the right? Etc.
 
 {% include fields-table.md definition="configuration-context-labels-fields" %}
 
+## Filtered Category Pages
+
+For specific needs certain category pages can be configured to have a "filter UI" instead of a standard sub navigation. These pages are called [Filtered Category Pages](../information-design-templates/category-filtered.md).
+
+For each category that should have this behavior you need to specify:
+
+{% include fields-table.md definition="configuration-filtered-category-fields" %}
+
+
 ## Logo
 
 It's required to specify a logo to be used in the header and throughout the product.
@@ -55,6 +64,8 @@ For each contact address you may specify:
 It is possible to define a number of responsible parties for an editorial product.
 This is simply an ordered list of contributor id's. These contributors will be shown 
 first on the [contributors](../information-design-templates/contributors.md) page and in the footer.
+
+{% include fields-table.md definition="configuration-responsible-parties-fields" %}
 
 ## Footer Content
 

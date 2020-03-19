@@ -1,0 +1,4 @@
+- field: "Contributors"
+  required: "No"
+  reference: "contributor"
+  reference_type: "many"
