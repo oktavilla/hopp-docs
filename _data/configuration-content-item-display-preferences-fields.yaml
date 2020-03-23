@@ -1,0 +1,14 @@
+- field: "Show timestamps"
+  required: "No"
+  field_type: "boolean"
+  comment: "Should timestamps be shown on Teasers and Content Item Pages? Default is true."
+
+- field: "Use relative timestamps"
+  required: "No"
+  field_type: "boolean"
+  comment: "If timestamps are shown, should they show time relative to 'today' or not? Default is false."
+
+- field: "Show Contributors in Teasers"
+  required: "No"
+  field_type: "boolean"
+  comment: "Should bylines be shown in teasers? Default is false."

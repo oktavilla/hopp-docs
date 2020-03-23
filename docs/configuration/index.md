@@ -51,9 +51,10 @@ on tag and category pages and for recirculation on content items in specific cat
 
 {% include wip.md %}
 
-It is possible to define preferences for how Content Items of different [types and variants](../data-models/content-item.md) should display content in various contexts. 
-Should publishing date be shown in detail, in relative terms or not at all? Should the teaser image
-be shown above, below or to the right? Etc.
+It is possible to define preferences for how Content Items should display content in various contexts. 
+
+{% include fields-table.md definition="configuration-content-item-display-preferences-fields" %}
+
 
 ---------
 
