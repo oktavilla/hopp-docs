@@ -5,12 +5,16 @@ nav_order: 200
 ---
 
 # Currently unsupported features and concepts
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Stories/Timelines
 
 Not supported (yet?). Stories are conceptually used to describe a chain of events. It would be used to aide the reader by putting a specific article into a time-lined context. What happened before this? What happened next? To make something like this really useful for readers there are a lot of things that needs to be researched. You might need sub stories, key events, summaries etc… So we won’t support stories yet. 
 
-## External Content
+## External Content Teasers
 
 Another content type could be “external content”. This may seem weird, but it would allow for linking to arbitrary content on the internet but in a way that makes it possible to add metadata and teaser data to that relation. By using this type of entity for a link you could have a teaser for it and by using tags, sections etc you could make sure it shows up even in automatic lists.
 
@@ -30,10 +34,10 @@ It’s possible to send content from one Content Pool to another within a Conten
 
 AMP is not supported on the platform as of now. It is fairly complicated to build and maintain on a platform basis so we need to determine if this is something that is prioritised by a significant number of platform clients.
 
-## Affiliate Links
+## Affiliate Links & other Integrations
 
-There’s no specific solution for affiliate links
+Not supported.
 
-## Integrations (widgets, affiliate links etcetera)
+## Comments
 
-Not supported yet.
+The platform does not yet support comments on articles.
