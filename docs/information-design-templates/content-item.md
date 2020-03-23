@@ -54,11 +54,9 @@ Promotion & Indexing Data will never be used in this context.
 
 ## Timestamp
 
-How and if a timestamp is shown on a content item is determined by preferences in the Product Configuration. There can either be a normal timestamp, *no* timestamp or a relative timestamp.
+If a timestamp is shown on a content item is determined by preferences in the Product Configuration. 
 
-{% include generic-rules/relative-timestamp.md %}
-
-{% include generic-rules/normal-timestamp.md %}
+{% include generic-rules/timestamp.md %}
 
 ----
 

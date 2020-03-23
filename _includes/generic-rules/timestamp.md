@@ -1,4 +1,4 @@
-Relative timestamps work like this:
+Timestamps work like this:
 
 ```
 If published today:

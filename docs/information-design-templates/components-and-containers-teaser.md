@@ -32,11 +32,9 @@ The platform will use the Promotion Text or fallback to the Content Item Lead (m
 Depending on the Product Configuration a list of content item contributors may be shown.
 
 ### Timestamp
-Depending on the Product Configuration a timestamp may be shown. There a two variants of timestamps. Either a normal timestamp or a relative one.
+Depending on the Product Configuration a timestamp may be shown or not. 
 
-{% include generic-rules/relative-timestamp.md %}
-
-{% include generic-rules/normal-timestamp.md %}
+{% include generic-rules/timestamp.md %}
 
 ### Context Label
 
