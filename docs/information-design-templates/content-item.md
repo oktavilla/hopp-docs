@@ -68,6 +68,14 @@ Promotion & Indexing Data will never be used in this context.
 
 ----
 
+## Timestamp
+
+How and if a timestamp is shown on a content item is determined by preferences in the Product Configuration. There can either be a normal timestamp, *no* timestamp or a relative timestamp.
+
+{% include generic-rules/relative-time.md %}
+
+----
+
 ## Sponsorship
 
 When a content item has a relationship to one or several [brands](../data-models/brand.md) that is called a sponsorship.
