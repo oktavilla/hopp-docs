@@ -39,11 +39,42 @@ For each Category that should exist you need to specify:
 
 {% include wip.md %}
 
-There is always one default [curated content mix](../data-models/curated-content-mix.md) for recirculation and one for the start page. 
-These can be configured in terms of what lists and rules they should have. 
+A Curated Content Mix can be configured in terms of what lists it should have. 
+
+For each Curated Content Mix the following needs to be specified:
+
+{% include fields-table.md definition="configuration-curated-content-mix" %}
+
+For each Curated Content List the following needs to be specified:
+
+{% include fields-table.md definition="configuration-curated-content-list" %}
+
+
+### Start Page
+
+There is always one default [curated content mix](../data-models/curated-content-mix.md) for the start page. 
+
+
+### Recirculation
+
+Each product has one or several recirculation content mixes. These work pretty much like any other Curated Content Mix. One difference is that a recirculation list will have access to the metadata for the context where it’s shown and may have selection rules that are based on relationship criterias (e.g “same section”, “similar tags”, “same content type” or “same partner”).
+
+There is a default recirculation content mix that will be shown on all content items but you may also define different mixes to be shown in specific sections.
+
+### Additional ones
 
 It is also possible to set up additional curated content mixes to replace the default content item listing
 on tag and category pages and for recirculation on content items in specific categories.
+
+
+
+---------
+
+## Curated Page Configuration
+
+{% include wip.md %}
+
+Each Curated Page consists of an ordered list of containers. Each container has a finite number of positions. Each position have a content source and an optional fallback source. A source can either be a Curated Content List, an Ad Position or a Service Teaser.
 
 ---------
 

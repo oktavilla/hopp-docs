@@ -1,0 +1,4 @@
+- field: "Content Items"
+  required: "No"
+  reference: content-item
+  reference_type: "many"

@@ -1,0 +1,19 @@
+- field: "Identifier"
+  required: "Yes"
+
+- field: "Name"
+  required: "Yes"
+
+- field: "Approximate Break Off Limit"
+  field_type: "integer"
+  required: "Yes"
+  comment: "A hint as to approximatelly how many teasers will be presented"
+
+- field: "Automation Rules"
+  required: "No"
+  comment: "References a set of rules for content selection"
+
+- field: "Allow Manual Entries"
+  field_type: "boolean"
+  required: "No"
+  comment: "Defaults to true"
