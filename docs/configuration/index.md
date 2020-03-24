@@ -151,3 +151,12 @@ The navigation can be configured for a product. TBD.
 
 Shown in the footer.
 
+---------
+
+## Accounts for 3rd party integrations
+
+{% include wip.md %}
+
+The platform supports integrations to some 3rd party services. The product needs to provide account details for those services in order for the integrations to work.
+
+{% include fields-table.md definition="configuration-accounts" %}

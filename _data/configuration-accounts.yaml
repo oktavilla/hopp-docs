@@ -1,0 +1,3 @@
+- field: "Facebook App ID"
+  required: "Yes"
+  comment: "Account used for social sharing"
