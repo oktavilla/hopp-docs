@@ -15,32 +15,35 @@ All [content items](../data-models/content-item.md) on the platform comes with a
 
 ----
 
-## Teaser Content
-
 A Content Item may have [specific promotion data](../data-models/content-item.md#promotion--indexing-data). This data is used for teasers if it's available. If none, or only partial, promotion data is present the platform will use the following fallbacks:
 
-### Heading
+## Heading
 The platform will use the Promotion Title or fallback to the Content Item Title.
 
-### Image
+## Image
 The platform will use the Promotion Image or fallback to the main image of the Content Item.
 
-### Text
+## Text
 The platform will use the Promotion Text or fallback to the Content Item Lead (may be truncated).
 
-### Byline
-Depending on the Product Configuration a list of content item contributors may be shown.
+## Bylines
 
-### Timestamp
+A standard Byline consists of only the Contributor Name. A Byline in an Opinion-piece Article Teaser will show both the Name and the Feature Image of the Contributor unless there's more than one Contributor. In that case only the Names will be shown.
+
+However, *the default is to not show a byline in teasers*. There's a few situations where it should be shown though:
+* For Opinion-piece Article Teasers the default is to show a byline
+* Showing bylines might be enabled in the [Product Configuration](../configuration/index.md#content-item-teaser-preferences) on a Content Variant basis.
+
+## Timestamp
 Depending on the Product Configuration a timestamp may be shown or not. 
 
 {% include generic-rules/timestamp.md %}
 
-### Context Label
+## Context Label
 
 Teasers have one (1) context label (this differs from [Context Labels on Content Item Pages](content-item.md#context-label)) that shows the category of the Content Item.
 
-### Sponsors
+## Sponsors
 
 If one or several brands are related to the Content Item the sponsorship will be clearly marked and the Brands will be represented by their logotypes.
 

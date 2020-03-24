@@ -49,11 +49,9 @@ For each Curated Content List the following needs to be specified:
 
 {% include fields-table.md definition="configuration-curated-content-list" %}
 
-
 ### Start Page
 
 There is always one default [curated content mix](../data-models/curated-content-mix.md) for the start page. 
-
 
 ### Recirculation
 
@@ -65,8 +63,6 @@ There is a default recirculation content mix that will be shown on all content i
 
 It is also possible to set up additional curated content mixes to replace the default content item listing
 on tag and category pages and for recirculation on content items in specific categories.
-
-
 
 ---------
 
@@ -86,6 +82,13 @@ It is possible to define preferences for how Content Items should display conten
 
 {% include fields-table.md definition="configuration-content-item-display-preferences-fields" %}
 
+---------
+
+## Content Item Teaser Preferences
+
+It is possible to specify teaser display preferences for each Content Variant. This overrides any defaults for that specific variant. For each variant it is possible to define:
+
+{% include fields-table.md definition="configuration-content-teaser-preferences-fields" %}
 
 ---------
 
@@ -99,7 +102,7 @@ It is possible to define preferences for how Content Items should display conten
 
 ## Contact
 
-For each product you may define one or several contact addresses. These will be whown in the footer.
+For each product you may define one or several contact addresses. These will be swhown in the footer.
 For each contact address you may specify:
 
 {% include fields-table.md definition="configuration-contact-fields" %}

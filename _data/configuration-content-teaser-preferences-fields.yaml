@@ -1,0 +1,4 @@
+- field: "Show Contributors"
+  required: "No"
+  field_type: "boolean"
+  comment: "Should bylines be shown in teasers? Default is defined by the specific variant."
