@@ -1,0 +1,3 @@
+- field: "Layout"
+  required: "Yes"
+  comment: "Either \"grid\" or \"list\""
