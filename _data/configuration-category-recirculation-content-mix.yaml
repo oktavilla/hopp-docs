@@ -1,0 +1,8 @@
+- field: "Category"
+  required: "Yes"
+  reference: category
+
+- field: "Lists"
+  required: "Yes"
+  reference: curated-content-list
+  reference_type: "many"

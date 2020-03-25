@@ -7,13 +7,9 @@
 - field: "Approximate Break Off Limit"
   field_type: "integer"
   required: "Yes"
-  comment: "A hint as to approximatelly how many teasers will be presented"
+  comment: "A hint as to approximately how many teasers will be presented (at most)"
 
 - field: "Automation Rules"
   required: "No"
+  field_type: automation-rules
   comment: "References a set of rules for content selection"
-
-- field: "Allow Manual Entries"
-  field_type: "boolean"
-  required: "No"
-  comment: "Defaults to true"

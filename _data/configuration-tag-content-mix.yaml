@@ -1,0 +1,8 @@
+- field: "Tag"
+  required: "Yes"
+  reference: tag
+
+- field: "Lists"
+  required: "Yes"
+  reference: curated-content-list
+  reference_type: "many"

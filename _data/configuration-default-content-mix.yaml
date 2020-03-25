@@ -1,9 +1,3 @@
-- field: "Identifier"
-  required: "Yes"
-
-- field: "Name"
-  required: "Yes"
-
 - field: "Lists"
   required: "Yes"
   reference: curated-content-list
