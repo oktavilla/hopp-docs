@@ -94,6 +94,16 @@ You may also define different mixes to be shown on Content Items in specific cat
 
 ---------
 
+## Content Item Lists
+
+{% include wip.md %}
+
+Settings for how content item lists are displayed generally throughout the product.
+
+{% include fields-table.md definition="configuration-content-item-list" %}
+
+---------
+
 ## Curated Content Lists
 
 {% include wip.md %}
