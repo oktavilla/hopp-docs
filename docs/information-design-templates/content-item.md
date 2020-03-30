@@ -88,6 +88,17 @@ When a content item has a relationship to one or several [brands](../data-models
 
 ----
 
+## Byline
+
+Content Items have a byline showing all [Contributors](../data-models/contributor.md). How these are rendered depends of the Content Type and Variant. 
+
+* By default every contributor will be represented by their name, role and byline image. They will be linked to their [Contributor Page](contributor.md).
+* Content Items of the [Opinion Piece](../data-models/content-type-article#content-variants) Article Variant will show a more prominent byline in the article header. These bylines will also default to using the Contributor Feature Image if available.
+
+Feature Images and regular Byline Images are rendered a bit differently. See the [Byline Image Component](components-and-containers-byline-image.md) for more information. 
+
+----
+
 ## Sharing
 
 Every Content Item have "share buttons". These services are supported by default:

@@ -28,7 +28,7 @@ The platform will use the Promotion Text or fallback to the Content Item Lead (m
 
 ## Bylines
 
-A standard Byline consists of only the Contributor Name. A Byline in an Opinion-piece Article Teaser will show both the Name and the Feature Image of the Contributor unless there's more than one Contributor. In that case only the Names will be shown.
+A standard Teaser byline consists of only the Contributor Name. Although a byline in an Opinion-piece Article Teaser will show both the Name and the Feature Image (falls back to the standard Byline Image) of the Contributor unless there's more than one Contributor. In that case only the Names will be shown. See the [Byline Image Component](components-and-containers-byline-image.md) for more information.  
 
 However, *the default is to not show a byline in teasers*. There's a few situations where it should be shown though:
 * For Opinion-piece Article Teasers the default is to show a byline
