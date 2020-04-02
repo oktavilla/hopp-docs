@@ -10,8 +10,8 @@ parent: "Data Models"
 
 {% include wip.md %}
 
-A Curated Content Mix is a named set of Curated Content Lists. They are used as sources for Content Containers on the start page or instead of standard content lists on Category or Tag pages. Curated Content Mixes are also used as sources for recirculation on Content Item Pages. The list definitions are set up in the [Product Configuration](../configuration/index.md#curated-content-mixes).
+A Curated Content Mix is a named set of Curated Content Lists. They represent the mix of content on the start page or certain Category or Tag pages. Curated Content Mixes are also used for recirculation on Content Item Pages. The list definitions are set up in the [Product Configuration](../configuration/curated-content-list.md).
 
-{% include fields-table.md parent_definition="configuration-curated-content-mix" %}
+{% include fields-table.md parent_definition="configuration-default-content-mix" %}
 
-* Defined by the product [configuration](../configuration/index.md#content-lists).
+* Defined by the product [configuration](../configuration/curated-content-list.md).

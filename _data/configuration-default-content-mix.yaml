@@ -1,4 +1,11 @@
+- field: "Layout"
+  required: "Yes"
+  reference: curated-content-layout
+  comment: "References a Curated Content Layout to be used for this mix"
+
 - field: "Lists"
   required: "Yes"
   reference: curated-content-list
   reference_type: "many"
+  reference_is_named: true
+  comment: "The reference name must be a key required by the Layout"

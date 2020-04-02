@@ -14,7 +14,7 @@ Content Categories, or just Categories for short, are used to “package” cont
 
 {% include fields-table.md definition="category-fields" parent_definition="configuration-category-fields" %}
 
-* Defined by the product [configuration](../configuration/index.md#categories).
+* Defined by the product [configuration](../configuration/categories.md).
 
 ## Meta Data
 

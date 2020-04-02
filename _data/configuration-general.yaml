@@ -1,0 +1,22 @@
+- field: "Content Item Lists Layout"
+  required: "Yes"
+  comment: "Defines how content item lists are displayed generally throughout the product. Either \"grid\" or \"list\""
+
+- field: "Show timestamps on Content Items"
+  required: "No"
+  field_type: "boolean"
+  comment: "Should timestamps be shown on Teasers and Content Item Pages? Default is true."
+
+- field: "Site Language"
+  required: "Yes"
+  reference: "content-language"
+
+- field: "Content Languages"
+  required: "Yes"
+  reference: "content-language"
+  reference_type: "many"
+  comment: "The first (or only) Content Language defined will be used as the default"
+
+- field: "Facebook App ID"
+  required: "Yes"
+  comment: "Account used for social sharing"

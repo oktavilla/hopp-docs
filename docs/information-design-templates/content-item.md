@@ -19,7 +19,7 @@ Besides content this page may also feature recirculation, [display ads](../data-
 
 ## Context Label
 
-A Content Item may have a set of "context labels" above the title. What these labels show depends on the [Product Configuration](../configuration/index.md#content-item-context-label-preferences) and the [Meta Data](../data-models/content-item.md#meta-data) of the Content Item.
+A Content Item may have a set of "context labels" above the title. What these labels show depends on the [Product Configuration](../configuration/content-item-context-label-preferences.md) and the [Meta Data](../data-models/content-item.md#meta-data) of the Content Item.
 
 <div class="example">
   <div class="example-context-label-group">

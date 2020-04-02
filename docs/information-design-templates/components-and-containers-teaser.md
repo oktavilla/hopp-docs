@@ -32,7 +32,7 @@ A standard Teaser byline consists of only the Contributor Name. Although a bylin
 
 However, *the default is to not show a byline in teasers*. There's a few situations where it should be shown though:
 * For Opinion-piece Article Teasers the default is to show a byline
-* Showing bylines might be enabled in the [Product Configuration](../configuration/index.md#content-item-teaser-preferences) on a Content Variant basis.
+* Showing bylines might be enabled in the [Product Configuration](../configuration/content-item-teaser-preferences.md) on a Content Variant basis.
 
 ## Timestamp
 Depending on the Product Configuration a timestamp may be shown or not. 
@@ -54,7 +54,7 @@ If one or several brands are related to the Content Item the sponsorship will be
 Teasers will display information differently depending on: 
 * What type of content it promotes (defined by its [content variant](../data-models/content-item.html#content-variants) and [content type](../data-models/content-item.html)). For video content the platform may show a teaser with a video play button and for a long read article there may be a larger, more engaging, image in the teaser.
 * The context it is presented in (see [lists](components-and-containers-list.md))
-* [Content Item Display Preferences](../configuration/#content-item-display-preferences) 
+* [Content Item Display Preferences](../configuration/general-product-preferences.md) 
 
 ----
 

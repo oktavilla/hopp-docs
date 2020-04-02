@@ -21,9 +21,30 @@
       <td>
         {% if entry.field_type %}
           {% assign file_name = entry.field_type | prepend: 'field-type-' | append: '.md' %}
-          {% assign field_type_page = site.pages | where: 'name', file_name %}
+          {% assign field_type_pages = site.pages | where: 'group', 'field-type' %}
+          {% assign field_type_page = field_type_pages | where: 'name', file_name %}
           {% assign field_type_title = field_type_page[0].title %}
           {{ field_type_title | replace: " Field", "" }}
+        {% elsif entry.reference %}
+          {% assign file_name = entry.reference | append: '.md' %}
+          {% assign data_model_pages = site.pages | where: 'group', 'data-models' %}
+          {% assign data_model_page = data_model_pages | where: 'name', file_name %}
+          {% assign data_model_title = data_model_page[0].title %}
+          {% if entry.reference_type == "many" %}
+            List of 
+            {% if entry.reference_is_named %}
+              named
+            {% endif %}
+            references to 
+          {% else %}
+            {% if entry.reference_is_named %}
+              Named reference
+            {% else %}
+              Reference
+            {% endif %}
+            to 
+          {% endif %}
+          {{ data_model_title }}
         {% else %}
           String
         {% endif %}
@@ -50,9 +71,18 @@
           {% assign data_model_page = data_model_pages | where: 'name', file_name %}
           {% assign data_model_title = data_model_page[0].title %}
           {% if entry.reference_type == "many" %}
-            List of references to 
+            List of 
+            {% if entry.reference_is_named %}
+              named
+            {% endif %}
+            references to 
           {% else %}
-            Reference to 
+            {% if entry.reference_is_named %}
+              Named reference
+            {% else %}
+              Reference
+            {% endif %}
+            to 
           {% endif %}
           <a href="{{entry.reference | prepend: "../data-models/" + site.base_url}}.html">{{ data_model_title }}</a>
         {% else %}

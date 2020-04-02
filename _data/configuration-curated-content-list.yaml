@@ -1,13 +1,23 @@
 - field: "Identifier"
   required: "Yes"
+  comment: "Unique identifier"
 
 - field: "Name"
   required: "Yes"
+  comment: "Used in the editor UI"
 
 - field: "Approximate Break Off Limit"
   field_type: "integer"
   required: "Yes"
-  comment: "A hint as to approximately how many teasers will be presented (at most)"
+  comment: "A hint for the editor as to approximately how many teasers will be presented (at most)"
+
+- field: "Allowed Entity Type"
+  required: "Yes"
+  comment: "Defines what types of entities that are allowed in this list. Can be either 'Content Item' or 'Tag'"
+
+- field: "Entity Filter"
+  required: "No"
+  comment: "Defined a filter for what entitites an editor will be able to select in the UI. Either a specific 'Tag Group' or a 'Category' depending on the Allowed Entity Type"
 
 - field: "Automation Rules"
   required: "No"
