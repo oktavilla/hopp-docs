@@ -41,7 +41,7 @@ Depending on the Product Configuration a timestamp may be shown or not.
 
 ## Context Label
 
-Teasers have one (1) context label (this differs from [Context Labels on Content Item Pages](content-item.md#context-label)) that shows the category of the Content Item.
+Teasers have one (1) context label. The label will display the text of the first item in the list of [Context Labels on Content Item Pages](content-item.md#context-label). It can be a category or a tag.
 
 ## Sponsors
 
