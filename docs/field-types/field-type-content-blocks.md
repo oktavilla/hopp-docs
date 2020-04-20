@@ -9,19 +9,19 @@ parent: "Field Types"
 
 ----------
 
-## Paragraph Block (Gutenberg Block)
+## Paragraph Block (Customized Gutenberg Block)
 
 A text paragraph (may contain basic formatting\*).
 
 ----
 
-## Heading Block (Gutenberg Block)
+## Heading Block (Standard Gutenberg Block)
 
 A sub heading. Can be on levels h2-h4.
 
 ----
 
-## List Block (Gutenberg Block)
+## List Block (Customized Gutenberg Block)
 
 A list can either be bulleted or numbered. List items may contain basic formatting\*.
 
@@ -44,7 +44,7 @@ A group of images where each image has:
 
 ----
 
-## Separator (Gutenberg Block)
+## Separator (Standard Gutenberg Block)
 
 A divider for creating segements on a page
 
@@ -53,13 +53,14 @@ A divider for creating segements on a page
 ## Fact Block (Custom)
 
 * Title
-* Text (may contain basic formatting\*
+* Paragraph Block(s)
+* List Block(s)
 
 ----
 
 ## Quote Block (Customized Gutenberg Block)
 
-* Text (may contain basic formatting\*)
+* Paragraph Block(s)
 * Source
 * [Image](field-type-image.md)
 * Visual Preference (one of `standard`, `prominent`)
