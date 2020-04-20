@@ -6,28 +6,38 @@ parent: "Field Types"
 ---
 
 # Content Blocks Field
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ----------
 
-## Paragraph Block (Customized Gutenberg Block)
+## Paragraph Block
 
-A text paragraph (may contain basic formatting\*).
+A text paragraph.
+Allows only basic formatting like **bold**, *Italic* and [links](http://oktavilla.se).
+Probably a customized Gutenberg block.
 
 ----
 
-## Heading Block (Standard Gutenberg Block)
+## Heading Block
 
 A sub heading. Can be on levels h2-h4.
+Probably a standard Gutenberg block.
 
 ----
 
-## List Block (Customized Gutenberg Block)
+## List Block
 
-A list can either be bulleted or numbered. List items may contain basic formatting\*.
+A list can either be bulleted or numbered. List items may contain basic formatting like **bold**, *Italic* and [links](http://oktavilla.se).
+Probably a customized Gutenberg block.
 
 ----
 
-## Image Block (Custom)
+## Image Block
+
+Probably a custom block.
 
 * [Image](field-type-image.md)
 * Caption (defaults to the image asset caption, but can be overwritten)
@@ -35,8 +45,9 @@ A list can either be bulleted or numbered. List items may contain basic formatti
 
 ----
 
-## Gallery Block (Custom)
+## Gallery Block
 
+Probably a custom block.
 A group of images where each image has:
 
 * [Image](field-type-image.md)
@@ -44,13 +55,15 @@ A group of images where each image has:
 
 ----
 
-## Separator (Standard Gutenberg Block)
+## Separator
 
-A divider for creating segements on a page
+A divider for creating segements on a page. Probably a standard Gutenberg block.
 
 ----
 
-## Fact Block (Custom)
+## Fact Block
+
+Probably a custom block.
 
 * Title
 * Paragraph Block(s)
@@ -58,7 +71,9 @@ A divider for creating segements on a page
 
 ----
 
-## Quote Block (Customized Gutenberg Block)
+## Quote Block
+
+Probably a customized Gutenberg block.
 
 * Paragraph Block(s)
 * Source
@@ -67,14 +82,16 @@ A divider for creating segements on a page
 
 ----
 
-## Teaser Block (Custom)
+## Teaser Block
 
 A reference to a Content Item.
+Probably a custom block.
 
 ----
 
-## Embed Block (Customized Gutenberg Block)
+## Embed Block
 
+Probably a customized Gutenberg block.
 Embed blocks makes in possible to insert third-party content (video, audio, images, tweets, etc.) from
 trusted sources. It's possible to embed content from these sites:
 
@@ -92,11 +109,11 @@ trusted sources. It's possible to embed content from these sites:
 
 ----
 
-## Map/geo Block
+## Map Position Block
 
-{% include tbd.md %}
+Probably a custom block.
+This is a block that can define a geographical position. It is basically just a bounding box comprised of:
 
-----
-
-\* Blocks that allow basic formatting will permit **bold**, *Italic* and [links](http://oktavilla.se).
+* NE Coordinate (expressed as LatLng)
+* SW Coordinate (expressed as LatLng)
 
