@@ -7,57 +7,72 @@ parent: "Field Types"
 
 # Content Blocks Field
 
-Blocks that allow basic formatting will permit **bold**, *Italic* and [links](http://oktavilla.se).
-
 ----------
 
-## Paragraph Block
+## Paragraph Block (Gutenberg Block)
 
-A text paragraph. May contain basic formatting.
+A text paragraph (may contain basic formatting\*).
 
-## Heading Block
+----
+
+## Heading Block (Gutenberg Block)
 
 A sub heading. Can be on levels h2-h4.
 
-## List Block
+----
 
-A list can either be bulleted or numbered. List items may contain basic formatting.
+## List Block (Gutenberg Block)
 
-## Map/geo Block
+A list can either be bulleted or numbered. List items may contain basic formatting\*.
 
-{% include tbd.md %}
+----
 
-## Image Block
+## Image Block (Custom)
 
-{% include tbd.md %}
+* [Image](field-type-image.md)
+* Caption (defaults to the image asset caption, but can be overwritten)
+* Visual Preference (one of `standard`, `left`, `right`, `prominent`)
 
-## Gallery Block
+----
 
-{% include tbd.md %}
+## Gallery Block (Custom)
 
-## Audio Block
+A group of images where each image has:
 
-{% include tbd.md %}
+* [Image](field-type-image.md)
+* Caption (defaults to the image asset caption, but can be overwritten)
 
-## Video Block
+----
 
-{% include tbd.md %}
+## Separator (Gutenberg Block)
 
-## Quote Block
+A divider for creating segements on a page
 
-{% include tbd.md %}
+----
 
-## Listicle Block
+## Fact Block (Custom)
 
-{% include tbd.md %}
+* Title
+* Text (may contain basic formatting\*
 
-## Fact Block
+----
 
-{% include tbd.md %}
+## Quote Block (Customized Gutenberg Block)
 
-## Embed Block
+* Text (may contain basic formatting\*)
+* Source
+* [Image](field-type-image.md)
+* Visual Preference (one of `standard`, `prominent`)
 
-{% include wip.md %}
+----
+
+## Teaser Block (Custom)
+
+A reference to a Content Item.
+
+----
+
+## Embed Block (Customized Gutenberg Block)
 
 Embed blocks makes in possible to insert third-party content (video, audio, images, tweets, etc.) from
 trusted sources. It's possible to embed content from these sites:
@@ -73,4 +88,14 @@ trusted sources. It's possible to embed content from these sites:
 * Polldaddy
 
 ... and a few more.
+
+----
+
+## Map/geo Block
+
+{% include tbd.md %}
+
+----
+
+\* Blocks that allow basic formatting will permit **bold**, *Italic* and [links](http://oktavilla.se).
 
