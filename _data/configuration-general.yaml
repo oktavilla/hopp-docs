@@ -15,3 +15,7 @@
 - field: "Facebook App ID"
   required: "Yes"
   comment: "Account used for social sharing"
+
+- field: "Cookie information url"
+  required: "Yes"
+  comment: "Link to page where end user can find information about cookies"
