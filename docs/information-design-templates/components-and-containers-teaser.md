@@ -24,7 +24,11 @@ The platform will use the Promotion Title or fallback to the Content Item Title.
 The platform will use the Promotion Image or fallback to the main image of the Content Item.
 
 ## Text
-The platform will use the Promotion Text or fallback to the Content Item Lead (may be truncated).
+The platform will use the Promotion Text or fallback to a short version of the Content Item Lead.
+
+### Fallback rules
+
+If no Promotion Text is available, the Content Item Lead is sliced after the last word within 80 character. If the text isn't a complete sentence after slicing (e.g. ends with ".", "!" or "?"), the text is suffixed with "…".
 
 ## Bylines
 
