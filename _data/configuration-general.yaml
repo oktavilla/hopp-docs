@@ -1,3 +1,6 @@
+- field: "Product Name"
+  required: "Yes"
+ 
 - field: "Content Item Lists Layout"
   required: "Yes"
   comment: "Defines how content item lists are displayed generally throughout the product. Either \"grid\" or \"list\""
