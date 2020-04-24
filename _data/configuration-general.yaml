@@ -22,3 +22,7 @@
 - field: "Cookie information url"
   required: "Yes"
   comment: "Link to page where end user can find information about cookies"
+
+- field: "Footer Information"
+  required: "No"
+  comment: "A text shown in the footer"
