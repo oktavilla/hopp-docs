@@ -1,0 +1,5 @@
+- field: "Title"
+  required: "Yes"
+
+- field: "URL"
+  required: "Yes"
