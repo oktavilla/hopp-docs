@@ -8,13 +8,6 @@ nav_order: 10
 
 ## Navigation
 
-### General Preferences
-
-Preferences that define navigation behavior and look.
-
-{% include fields-table.md definition="configuration-navigation" %}
-
-
 ### Primary Navigation
 
 The primary navigation is a ist of links that may be nested. It is primarily used in the [header](../information-design-templates/components-and-containers-header.md). For each link you may specify:

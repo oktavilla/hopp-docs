@@ -1,4 +1,0 @@
-- field: "Number of visible main navigation items"
-  required: "No"
-  field_type: "integer"
-  comment: "May be used to hide additional menu items behind a 'more' button"
