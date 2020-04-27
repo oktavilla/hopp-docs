@@ -1,0 +1,12 @@
+- field: "Key"
+  required: "Yes"
+
+- field: "Title"
+  required: "Yes"
+
+- field: "URL"
+  required: "Yes"
+
+- field: "Parent"
+  required: "No"
+  comment: "A key to another menu item"
