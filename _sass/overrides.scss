@@ -204,6 +204,15 @@ $example-scale: 0.75;
     @include placeholder(100px*$example-scale, 100px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
   }
 }
+.example-input {
+  border: 1px solid $grey-lt-300;
+  padding: 5px*$example-scale;
+}
+.example-button {
+  border: 1px solid $grey-lt-300;
+  background: $grey-lt-300;
+  color: #fff;
+}
 .example-header {
   overflow: hidden;
   padding-bottom: 10px*$example-scale;

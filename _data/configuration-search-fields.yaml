@@ -1,0 +1,11 @@
+- field: "Tag Groups for Filters"
+  required: "No"
+  reference: "tag-group"
+  reference_type: "many"
+  comment: "An ordered list of Tag Groups used to determine what tags should be shown as filter options on the search page"
+
+- field: "Categories for Filters"
+  required: "No"
+  reference: "category"
+  reference_type: "many"
+  comment: "An ordered list of Categories. Used as filter options on the search page."
