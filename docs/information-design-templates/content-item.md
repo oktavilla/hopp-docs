@@ -45,9 +45,18 @@ A Content Item may have a set of "context labels" above the title. What these la
 
 ----
 
-## Title & Lead
+## Title
 
-The title and lead on the Content Item Page will always be based on the main Title and Lead fields. 
+The title on the Content Item Page will always be based on the main Title field.
+Promotion & Indexing Data will never be used in this context.
+
+Title is prefixed with contributor if the content variant is ["Opinion Piece"](../data-models/content-type-article.html#content-variants), there is 1 contributor and ["Contributor In Opinion Piece Heading"](../configuration/content-item-preferences) configuration is set to true.
+
+----
+
+## Lead
+
+The lead on the Content Item Page will always be based on the main Lead field.
 Promotion & Indexing Data will never be used in this context.
 
 ----

@@ -20,6 +20,8 @@ A Content Item may have [specific promotion data](../data-models/content-item.md
 ## Heading
 The platform will use the Promotion Title or fallback to the Content Item Title.
 
+Heading is prefixed with contributor if the content variant is ["Opinion Piece"](../data-models/content-type-article.html#content-variants), there is 1 contributor and ["Contributor In Opinion Piece Heading"](../configuration/content-item-preferences) configuration is set to true.
+
 ## Image
 The platform will use the Promotion Image or fallback to the main image of the Content Item.
 
