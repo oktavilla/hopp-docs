@@ -13,7 +13,3 @@
 - field: "Context Label Position"
   required: "Yes"
   comment: "Where should the context label be rendered? Either \"above_heading\" or \"below_heading\"."
-- field: "Contributor In Opinion Piece Heading"
-  required: "Yes"
-  field_type: "boolean"
-  comment: "Should title in opinion piece heading be prepended by the contributor? Only applicable when there is 1 contributor."
