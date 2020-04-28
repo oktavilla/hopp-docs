@@ -41,7 +41,7 @@ Probably a custom block.
 
 * [Image](field-type-image.md)
 * Caption (defaults to the image asset caption, but can be overwritten)
-* Visual Preference (one of `standard`, `left`, `right`, `prominent`)
+* Visual Preference (one of `discreet`, `standard`, `prominent`)
 
 ----
 
@@ -116,4 +116,3 @@ This is a block that can define a geographical position. It is basically just a 
 
 * NE Coordinate (expressed as LatLng)
 * SW Coordinate (expressed as LatLng)
-
