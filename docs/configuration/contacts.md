@@ -8,8 +8,8 @@ nav_order: 10
 
 ## Contact
 
-For each product you may define one or several contact addresses. These will be swhown in the footer.
-For each contact address you may specify:
+For each product you may define one contact address. This will be swhown in the footer.
+You may specify:
 
 {% include fields-table.md definition="configuration-contact-fields" %}
 
