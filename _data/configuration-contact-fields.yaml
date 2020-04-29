@@ -15,3 +15,9 @@
 
 - field: "Address Locality"
   required: "No"
+
+- field: "E-mail"
+  required: "No"
+
+- field: "Telephone"
+  required: "No"
