@@ -4,6 +4,9 @@
 - field: "Recipient"
   required: "No"
 
+- field: "Street address"
+  required: "No"
+
 - field: "Post Office Box Number"
   required: "No"
 
