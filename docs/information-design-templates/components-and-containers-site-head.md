@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Header"
+title:  "Site Head"
 parent: "Components & Containers"
 grand_parent: "Information Design Templates"
 ---
 
-# Header
+# Site Head
