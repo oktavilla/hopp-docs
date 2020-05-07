@@ -1,0 +1,3 @@
+- field: "Head"
+  required: "Yes"
+  comment: "Defines how the head of the tag page is prefered to be rendered. Either \"standard\" or \"hero\"."
