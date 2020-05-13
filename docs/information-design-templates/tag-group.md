@@ -30,5 +30,5 @@ A tag group page will list all its tags.
   </div>
 </div>
 
-* A tag group page will show name, image and description {% include example-reference.html number="1" %}.
+* A tag group page will show name, image and description {% include example-reference.html number="1" %}. Layout of page head will depend on [tag group configuration](../configuration/tag-groups). If no image is present, head will always be rendered as "standard".
 * A tag group page will always list all tags that belong to it (latest first) {% include example-reference.html number="2" %}.
