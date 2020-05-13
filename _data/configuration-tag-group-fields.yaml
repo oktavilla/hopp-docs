@@ -4,3 +4,7 @@
 - field: "Allowed Tag Type"
   required: "Yes"
   reference: tag-type
+
+- field: "Head"
+  required: "Yes"
+  comment: "Defines how the head of the tag group page is prefered to be rendered. Either \"standard\" or \"hero\"."
