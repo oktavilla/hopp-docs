@@ -1,0 +1,7 @@
+- field: "Identifier"
+  required: "Yes"
+  comment: "Ad position identifier."
+
+- field: "Setting"
+  required: "Yes"
+  comment: "Either \"on\", \"off\" or keyword(s) describing the view, e.g. [\"start_page\", \"tag_page\"]."
