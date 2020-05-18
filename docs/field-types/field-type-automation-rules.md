@@ -8,6 +8,10 @@ parent: "Field Types"
 
 {% include wip.md %}
 
+## Excludes
+
+When used in a recirculation context the list will be provided with the Content Item ID for exclusion.
+
 ## Relational Selection Rules
 
 Relational selection rules only takes effect in recirculation contexts. The list is in these cases provided with the meta data of the current Content Item and can use these as a basis for selection. These rules can be combined with Explicit Selection Rules.
