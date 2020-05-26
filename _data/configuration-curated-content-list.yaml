@@ -18,8 +18,3 @@
 - field: "Entity Filter"
   required: "No"
   comment: "Defined a filter for what entitites an editor will be able to select in the UI. Either a specific 'Tag Group' or a 'Category' depending on the Allowed Entity Type"
-
-- field: "Automation Rules"
-  required: "No"
-  field_type: automation-rules
-  comment: "References a set of rules for content selection"

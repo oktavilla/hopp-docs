@@ -1,7 +1,7 @@
 ---
 group: "product-features"
 title:  "Sitemaps"
-parent: "Product Features"
+parent: "Features"
 ---
 
 # Sitemaps

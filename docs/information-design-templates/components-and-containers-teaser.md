@@ -8,29 +8,31 @@ grand_parent: "Information Design Templates"
 # Teaser
 {: .no_toc }
 
-All [content items](../data-models/content-item.md) on the platform comes with a teaser that can promote it in different ways. Teasers are typically shown in [lists](components-and-containers-list.md) on the start, category-, tag, contributor- or brand pages in order to internally promote content. Teasers can also be shown inline in content areas or in the recirculation section below content items.
+All [content items](../data-models/content-item.md) on the platform comes with a teaser that can promote it in different ways. Teasers are typically shown in lists on the start, category-, tag, contributor- or brand pages in order to internally promote content. Teasers can also be shown inline in content areas or in the recirculation section below content items. A Content Item may have [specific promotion data](../data-models/content-item.md#promotion--indexing-data).
 
 1. TOC
 {:toc}
 
 ----
 
-A Content Item may have [specific promotion data](../data-models/content-item.md#promotion--indexing-data). This data is used for teasers if it's available. If none, or only partial, promotion data is present the platform will use the following fallbacks:
-
 ## Heading
 The platform will use the Promotion Title or fallback to the Content Item Title.
 
 Heading is prefixed with contributor if the content variant is ["Opinion Piece"](../data-models/content-type-article.html#content-variants), there is 1 contributor and ["Contributor In Opinion Piece Heading"](../configuration/content-item-preferences) configuration is set to true.
 
+----
+
 ## Image
 The platform will use the Promotion Image or fallback to the main image of the Content Item.
+
+----
 
 ## Text
 The platform will use the Promotion Text or fallback to a short version of the Content Item Lead.
 
-### Fallback rules
-
 If no Promotion Text is available, the Content Item Lead is sliced after the last word within 80 character. If the text isn't a complete sentence after slicing (e.g. ends with ".", "!" or "?"), the text is suffixed with "…".
+
+----
 
 ## Bylines
 
@@ -40,14 +42,20 @@ However, *the default is to not show a byline in teasers*. There's a few situati
 * For Opinion-piece Article Teasers the default is to show a byline
 * Showing bylines might be enabled in the [Product Configuration](../configuration/content-item-teaser-preferences.md) on a Content Variant basis.
 
+----
+
 ## Timestamp
 Depending on the Product Configuration a timestamp may be shown or not. 
 
 {% include generic-rules/timestamp.md %}
 
+----
+
 ## Context Label
 
 Teasers have one (1) context label. The label will display the text of the first item in the list of [Context Labels on Content Item Pages](content-item.md#context-label). It can be a category or a tag.
+
+----
 
 ## Sponsors
 
@@ -68,6 +76,4 @@ Teasers will display information differently depending on:
 
 Internal Ads are used throughout the site for the purpose of informing users about current offers, events etc. An 
 internal ad is simply a teaser for a static page.
-
-----
 

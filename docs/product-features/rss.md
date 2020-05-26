@@ -1,7 +1,7 @@
 ---
 group: "product-features"
 title:  "RSS etc"
-parent: "Product Features"
+parent: "Features"
 ---
 
 # RSS and Continuous Content Delivery

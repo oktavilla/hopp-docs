@@ -8,8 +8,18 @@ grand_parent: "Configuration"
 
 # Curated Content List
 
-{% include wip.md %}
+## Manually Curated Content List
 
-For each Curated Content List the following needs to be specified:
+For each manually Curated Content List the following needs to be specified:
 
 {% include fields-table.md definition="configuration-curated-content-list" %}
+
+----
+
+## Automated Content List
+
+Automated lists will find Content Items based on a set of rules. 
+There are both Relational Selection Rules and Explicit Selection Rules. The former only work in specific contexts like on a Content Item Page, a Tag Page etc. The latter is used to filter out specific content regardless of context. They can be used in combination. Read more about how they work in the [Automated Lists feature description](../product-features/automated-lists.md).
+
+{% include fields-table.md definition="configuration-automated-content-list" %}
+

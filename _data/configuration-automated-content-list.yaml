@@ -1,0 +1,49 @@
+- field: "Identifier"
+  required: "Yes"
+  comment: "Unique identifier"
+
+- field: "Same Tag"
+  required: "No"
+  field_type: "boolean"
+  comment: "Used for relational selections. Only takes effect in certain contexts."
+
+- field: "Same Brand"
+  required: "No"
+  field_type: "boolean"
+  comment: "Used for relational selections. Only takes effect in certain contexts."
+
+- field: "Same Category"
+  required: "No"
+  field_type: "boolean"
+  comment: "Used for relational selections. Only takes effect in certain contexts."
+
+- field: "In Category"
+  required: "No"
+  reference: category
+  reference_type: "many"
+  comment: "Content Item must be in one of these Categories."
+
+- field: "Has Tag"
+  required: "No"
+  reference: tag
+  reference_type: "many"
+  comment: "Content Item must be have one of these Tags."
+
+- field: "Maximum Age Cutoff"
+  required: "No"
+  field_type: "integer"
+  comment: "Cutoff Content Items older than this number of days since update"
+
+- field: "Similarity Threshold"
+  required: "No"
+  field_type: "integer"
+  comment: "Cutoff Content Items with lower similarity score than this"
+
+- field: "Heed Similarity Score"
+  required: "No"
+  field_type: "boolean"
+  comment: "Should the list be sorted by similarity score before applying the normal order?"
+
+- field: "Order"
+  required: "No"
+  comment: "Either 'recency' or 'popularity'"

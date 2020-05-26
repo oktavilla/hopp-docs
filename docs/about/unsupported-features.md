@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Unsupported Features"
+parent: "About Hopp"
 nav_order: 200
 ---
 
@@ -9,10 +10,6 @@ nav_order: 200
 
 1. TOC
 {:toc}
-
-## Stories/Timelines
-
-Not supported (yet?). Stories are conceptually used to describe a chain of events. It would be used to aide the reader by putting a specific article into a time-lined context. What happened before this? What happened next? To make something like this really useful for readers there are a lot of things that needs to be researched. You might need sub stories, key events, summaries etc… So we won’t support stories yet. 
 
 ## External Content Teasers
 

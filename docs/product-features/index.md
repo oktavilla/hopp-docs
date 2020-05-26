@@ -1,10 +1,8 @@
 ---
 layout: default
-title:  "Product Features"
+title:  "Features"
 nav_order: 70
 has_children: true
 ---
 
-# Product Features
-
-
+# Features

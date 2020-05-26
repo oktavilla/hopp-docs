@@ -2,7 +2,6 @@
 layout: default
 title:  "Infrastructure"
 nav_order: 110
-has_children: true
 ---
 
 # Infrastructure

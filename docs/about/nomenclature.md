@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Nomenclature"
+parent: "About Hopp"
 nav_order: 100
 ---
 

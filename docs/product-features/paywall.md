@@ -1,7 +1,7 @@
 ---
 group: "product-features"
 title:  "Paywall"
-parent: "Product Features"
+parent: "Features"
 ---
 
 # Paywall
