@@ -6,3 +6,5 @@ has_children: true
 ---
 
 # Features
+
+The features and functionality of the user facing part of Hopp Editorial.
