@@ -4,7 +4,6 @@ layout: default
 title:  "Content Item Preferences"
 parent: "Configuration"
 nav_order: 10
-has_children: true
 ---
 
 # Content Item Preferences

@@ -4,7 +4,6 @@ layout: default
 title:  "Categories"
 parent: "Configuration"
 nav_order: 10
-has_children: true
 ---
 
 # Categories

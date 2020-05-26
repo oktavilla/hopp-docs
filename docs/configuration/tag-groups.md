@@ -4,7 +4,6 @@ layout: default
 title:  "Tag Groups"
 parent: "Configuration"
 nav_order: 10
-has_children: true
 ---
 
 # Tag Groups
