@@ -37,26 +37,10 @@ The order is applied after the selection. If the order should heed the Similarit
 
 ```
   {
-    'relations': {
-      {
-        rule: 'same-tag'
-      },
-      {
-        rule: 'same-category'
-      }
-    },
-    'selections': {
-      {
-        rule: 'has-tag',
-        value: 'dogs'
-      }
-    },
-    'cutoffs': [
-      {
-        rule: 'max-age',
-        value: 365
-      }
-    ],
+    'same-tag': true,
+    'same-category': true,
+    'has-tag': ['dogs'],
+    'maximum-age': 365,
     'heed-similarity-score': true,
     'order': 'recency'
   }
