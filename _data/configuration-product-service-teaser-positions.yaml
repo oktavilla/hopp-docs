@@ -1,7 +1,7 @@
 - field: "Position"
   required: "Yes"
   field_type: "page-position"
-  comment: "Page position for this Ad."
+  comment: "Page position for this Service Teaser."
 
 - field: "Render"
   required: "Yes"
@@ -14,7 +14,6 @@
   field_type: "page-type"
   comment: "Only meaningful on positions that exist on multiple page types."
 
-- field: "Ad Unit Path"
+- field: "Service Teaser"
   required: "Yes"
-  comment: "I.e /21636186344/lo_ka_panorama_1"
-
+  comment: "Identifier for the Service Teaser to render at this position."

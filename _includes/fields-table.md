@@ -64,6 +64,13 @@
           {% assign field_type_pages = site.pages | where: 'group', 'field-type' %}
           {% assign field_type_page = field_type_pages | where: 'name', file_name %}
           {% assign field_type_title = field_type_page[0].title %}
+          {% if entry.reference_type == "many" %}
+            List of 
+            {% if entry.reference_is_named %}
+              named
+            {% endif %}
+            references to 
+          {% endif %}
           <a href="{{entry.field_type | prepend: "../field-types/field-type-" + site.base_url}}.html">{{ field_type_title | replace: " Field", "" }}</a>
         {% elsif entry.reference %}
           {% assign file_name = entry.reference | append: '.md' %}
