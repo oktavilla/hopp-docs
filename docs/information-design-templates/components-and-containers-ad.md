@@ -13,4 +13,4 @@ The platform has these ad positions:
 2. Panorama tag page below intro
 3. In article (injected after the second block in article body unless paywall is shown)
 
-These ad positions will not render any ads unless the [product is configured to do so](../configuration/ad-positions.html).
+These ad positions will not render any ads unless the [product is configured to do so](../configuration/ad-positions).

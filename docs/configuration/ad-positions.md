@@ -6,8 +6,8 @@ parent: "Configuration"
 nav_order: 10
 ---
 
-## Ad positions
+# Ad positions
 
-For each product you may define to display ads at any of the [supported positions](../information-design-templates/components-and-containers-ad.html).
+For each product you may define to display ads at any of the default or configured positions.
 
 {% include fields-table.md definition="configuration-product-ad-positions" %}

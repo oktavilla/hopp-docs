@@ -1,0 +1,21 @@
+- field: "Identifier"
+  required: "Yes"
+  comment: "Used to identify this teaser"
+
+- field: "Title"
+  required: "Yes"
+  
+- field: "Body"
+  required: "No"
+  field_type: "rich-text"
+  comment: "Promotion Text"
+
+- field: "Button Text"
+  required: "Yes"
+
+- field: "Target URL"
+  required: "Yes"
+
+- field: "Template"
+  required: "Yes"
+  comment: "Identity of the template that should be used to render this"
