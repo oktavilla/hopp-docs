@@ -1,4 +1,4 @@
-- field: "Position"
+- field: "Page Position"
   required: "Yes"
   field_type: "page-position"
   comment: "Page position for this Ad."
@@ -22,4 +22,3 @@
 - field: "Ad Unit Path"
   required: "Yes"
   comment: "I.e /21636186344/lo_ka_panorama_1"
-
