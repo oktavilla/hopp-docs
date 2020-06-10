@@ -8,6 +8,11 @@
   field_type: "boolean"
   comment: "Turns rendering the position on or off."
 
+- field: "Render On Premium Content"
+  required: "No"
+  field_type: "boolean"
+  comment: "Turns rendering the position on or off on pages with premium content. Default is true."
+
 - field: "Render Only On"
   required: "No"
   reference_type: "many"

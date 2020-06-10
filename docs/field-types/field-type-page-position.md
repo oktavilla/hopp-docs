@@ -11,15 +11,15 @@ A represenation of a position on a page. Not all positions are available on all 
 
 ---
 
-## Page End
-At page end. Available on [all page types](../field-types/field-type-page-type.md).  
-Key: **`page_end`**  
+## Content End
+At content end. Available on [all page types](../field-types/field-type-page-type.md).  
+Key: **`content_end`**  
 
 ---
 
-## Page End, Sticky
-Page end, sticky. Available on [all page types](../field-types/field-type-page-type.md).  
-Key: **`page_end_sticky`**  
+## Sticky Bottom
+Sticks to the window bottom. Available on [all page types](../field-types/field-type-page-type.md).  
+Key: **`sticky_bottom`**  
 
 ---
 
@@ -36,7 +36,7 @@ Key: **`below_intro`**
 ---
 
 ## In Content
-Injected after the second block in a Content Item body unless paywall is shown. Only available on `content_item`  
+Injected after the second block in article body unless paywall is shown. Only available on `content_item_article_page`  
 Key: **`in_content`**  
 
 ---

@@ -12,4 +12,4 @@ Recognised page type keywords:
 * `start_page`
 * `tag_page`
 * `category_page`
-* `content_item_page`
+* `content_item_article_page`
