@@ -1,0 +1,11 @@
+- field: "Primary Source"
+  field_type: "object"
+  required: "Yes"
+
+- field: "Secondary Source"
+  field_type: "object"
+  required: "No"
+
+- field: "Continue Text"
+  required: "No"
+  comment: "A text that may be shown as an extra CTA in a teaser at this position."

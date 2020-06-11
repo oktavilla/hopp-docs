@@ -1,0 +1,17 @@
+- field: "Heading"
+  required: "No"
+
+- field: "Sub Heading"
+  required: "No"
+
+- field: "Link"
+  required: "No"
+  field_type: "object"
+
+- field: "Text"
+  required: "No"
+
+- field: "Variants"
+  required: "No"
+  field_type: "array"
+  comment: "An array of template variants that should be applied to the header."

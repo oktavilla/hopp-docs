@@ -1,0 +1,29 @@
+- field: "Template"
+  required: "Yes"
+  comment: "The Information Design Template to use for this Container."
+
+- field: "Positions"
+  required: "Yes"
+  field_type: "array"
+  comment: "An array of positions. See separate definition."
+
+- field: "Header"
+  required: "No"
+  field_type: "object"
+  comment: "Container Header object. See separate definition."
+
+- field: "Preferences"
+  required: "No"
+  field_type: "array"
+  comment: "An array of preferences that should be sent to the template."
+
+- field: "Grid Preferences"
+  required: "No"
+  field_type: "array"
+  comment: "An array of preferences that should be sent to the container grid."
+
+- field: "Position Preferences"
+  required: "No"
+  field_type: "array"
+  comment: "An array of preferences that should be sent to each item at a position in the grid."
+
