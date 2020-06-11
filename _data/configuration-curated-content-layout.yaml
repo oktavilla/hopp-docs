@@ -1,0 +1,4 @@
+- field: "Containers"
+  required: "Yes"
+  field_type: "array"
+  comment: "An array of Container Objects. See separate definition."

@@ -1,0 +1,5 @@
+- field: "Text"
+  required: "No"
+
+- field: "URL"
+  required: "Yes"
