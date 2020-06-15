@@ -14,16 +14,16 @@
 
 - field: "Preferences"
   required: "No"
-  field_type: "array"
-  comment: "An array of preferences that should be sent to the template."
+  field_type: "object"
+  comment: "A Preferences Object. Will be sent to the container template."
 
 - field: "Grid Preferences"
   required: "No"
-  field_type: "array"
-  comment: "An array of preferences that should be sent to the container grid."
+  field_type: "object"
+  comment: "A Preferences Object. Will be sent to the container grid."
 
-- field: "Position Preferences"
+- field: "Item Preferences"
   required: "No"
-  field_type: "array"
-  comment: "An array of preferences that should be sent to each item at a position in the grid."
+  field_type: "object"
+  comment: "A Preferences Object. Will be sent to each item in the grid."
 

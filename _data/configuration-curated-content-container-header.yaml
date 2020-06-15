@@ -11,7 +11,7 @@
 - field: "Text"
   required: "No"
 
-- field: "Variants"
+- field: "Class Names"
   required: "No"
   field_type: "array"
-  comment: "An array of template variants that should be applied to the header."
+  comment: "An array of class names that should be applied to the header."
