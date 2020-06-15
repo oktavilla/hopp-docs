@@ -1,0 +1,4 @@
+- field: "Class Names"
+  required: "No"
+  field_type: "array"
+  comment: "An array of class names."
