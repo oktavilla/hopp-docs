@@ -27,6 +27,14 @@ Content Types are native to the platform and they define the data schemas for di
 
 The platform comes with one or several variants of every content type. The variant defines the **storytelling mode**. A content variant maps to exactly one content type and one set of information design templates ([page](../information-design-templates/content-item.md) and [teasers](../information-design-templates/part-teaser.md)). See respective Content Type for available variants.
 
+## Premium
+
+The product has a [default paywall setting](../configuration/general-product-preferences.md). But that setting can be overwritten on a per Content Item basis. A Content Item can have a premium setting that is either:
+
+* (not set)
+* Always Free
+* Always Premium
+
 ## Meta Data
 
 Meta Data is used to describe or structure the content. Content Items (except static ones) may have relationships to meta data of different different kinds. These types of relationships are possible or required:

@@ -26,3 +26,11 @@
 - field: "Footer Information"
   required: "No"
   comment: "A text shown in the footer"
+
+- field: "Content Paywall"
+  required: "Yes"
+  comment: "Either 'disabled', 'free_model' or 'premium_model'"
+
+- field: "Subscription Product Identifier"
+  required: "No"
+  comment: "A key that corresponds to a product that allows 'access to digital premium content' in Hopp Identity"

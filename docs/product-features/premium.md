@@ -6,10 +6,25 @@ parent: "Features"
 
 # Premium Content
 
-There’s a general paywall setting for each product. This setting is defined in the product configuration and can be set to “off”, “free” or “premium”. This determines the current default for the product. The general paywall setting can be overridden on specific articles by flagging them as “always premium” or “always free”. 
+There’s a [general Content Paywall setting](../configuration/general-product-preferences.md) for each product. The paywall can "disabled" or run a “free model” or “premium model”. This setting determines the current default paywall behavior for the product. The general paywall setting can be [overridden on specific articles](../data-models/content-item.md#premium) by flagging them as “always premium” or “always free”. Premium content is available for search engines at all times, regardless of paywall setting. 
 
-If the General Paywall setting is “on” customer access to content is negotiated case-by-case by a “broker service”. The broker determines if an article is to be considered “premium” based on the general paywall setting but takes any overrides on the current article into regard. If the content is determined to be “premium” the broker will check the access rights of the current user. For a user to get access to premium content they need to be logged in and flagged as “eligible to premium content”. 
+## Paywall Models
 
-If content is determined to be “premium” but the user is not eligible they will be presented with a call to action. This can either be to log in or to sign up/subscribe. These components can be defined somewhere.
+### Disabled
+This means the product does not require login/access for any content.
 
-Premium content is available for search engines at all times. For further information about access rights and customer management see Authentication and Customer Management respectively.
+### Free Model
+This means content is free by default but some Content Items may require Premium Access.
+
+### Premium Model
+This means all content is premium but some Content Items may be accessible by all.
+
+## Paywall Behavior
+
+The editorial platform will follow this decision tree:
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSbCFZV_BVjn6oeDOL2Fo9C1Wu0OXMnI2DwOpNIjFe2oaDyHQmuDIjBuBolz-hwkl8VDpzpbbD3WE75/pub?w=908&amp;h=837">
+
+So there are two “versions” of the paywall.  
+A. With sign in  
+B. Without sign in
