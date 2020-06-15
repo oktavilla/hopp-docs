@@ -6,7 +6,7 @@ parent: "Configuration"
 nav_order: 10
 ---
 
-## Contact
+# Contact
 
 For each product you may define one contact address. This will be swhown in the footer.
 You may specify:

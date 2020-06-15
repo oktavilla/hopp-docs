@@ -18,8 +18,6 @@ Each Curated Content Mix references a number of Curated Content Lists and a Cura
 
 ## Start Page Content Mix
 
-{% include wip.md %}
-
 There is a default Content Mix for the start page. 
 
 {% include fields-table.md definition="configuration-default-content-mix" %}
@@ -27,8 +25,6 @@ There is a default Content Mix for the start page.
 ---------
 
 ## Recirculation Content Mix
-
-{% include wip.md %}
 
 Each product has one recirculation Content Mix. It works pretty much like any other Curated Content Mix. One difference is that a recirculation list will have access to the metadata for the context where it’s shown and may have selection rules that are based on relationship criterias (e.g “same section”, “similar tags”, “same content type” or “same partner”).
 
@@ -40,8 +36,6 @@ There is a default recirculation content mix that will be shown on all content i
 
 ## Recirculation Content Mix for specific Categories
 
-{% include wip.md %}
-
 You may also define different mixes to be shown on Content Items in specific categories.
 
 {% include fields-table.md definition="configuration-category-recirculation-content-mix" %}
@@ -49,8 +43,6 @@ You may also define different mixes to be shown on Content Items in specific cat
 ---------
 
 ## Tag Content Mixes
-
-{% include wip.md %}
 
 It is possible to set up additional Content Mixes to replace the default content item listing
 on Tag pages.
@@ -62,8 +54,6 @@ For each Content Mix the following needs to be specified:
 ---------
 
 ## Category Content Mixes
-
-{% include wip.md %}
 
 It is possible to set up additional Content Mixes to replace the default content item listing
 on Category pages.
