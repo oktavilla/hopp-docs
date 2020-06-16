@@ -25,5 +25,4 @@
 - field: "Item Preferences"
   required: "No"
   field_type: "object"
-  comment: "A Preferences Object. Will be sent to each item in the grid."
-
+  comment: "A Preferences Object. Will affect items in the template."
