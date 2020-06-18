@@ -11,20 +11,14 @@ A represenation of a position on a page. Not all positions are available on all 
 
 ---
 
-## Content End
-At content end. Available on [all page types](../field-types/field-type-page-type.md).  
-Key: **`content_end`**  
+## Page End
+At page end (before footer). Available on [all page types](../field-types/field-type-page-type.md).  
+Key: **`page_end`**  
 
 ---
 
-## Sticky Bottom
-Sticks to the window bottom. Available on [all page types](../field-types/field-type-page-type.md).  
-Key: **`sticky_bottom`**  
-
----
-
-## Below Site Head
-Below site head. Available on [all page types](../field-types/field-type-page-type.md).  
+## Page Start
+At page start (below site head). Available on [all page types](../field-types/field-type-page-type.md).  
 Key: **`below_site_head`**  
 
 ---
@@ -40,4 +34,11 @@ Injected after the second block in article body unless paywall is shown. Only av
 Key: **`in_content`**  
 
 ---
+
+## After Content
+Injected after article body (before byline and meta data if present) unless paywall is shown. Only available on `content_item_article_page`  
+Key: **`after_content`**  
+
+---
+
 
