@@ -116,3 +116,7 @@ This is a block that can define a geographical position. It is basically just a 
 
 * NE Coordinate (expressed as LatLng)
 * SW Coordinate (expressed as LatLng)
+
+And as another attribute:
+
+* Caption
