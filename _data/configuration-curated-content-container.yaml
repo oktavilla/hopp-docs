@@ -2,14 +2,9 @@
   required: "Yes"
   comment: "The Information Design Template to use for this Container."
 
-- field: "Positions"
-  required: "No"
-  field_type: "array"
-  comment: "An array of positions. See separate definition."
-
-- field: "Content List"
-  required: "No"
-  comment: "A reference to a type of dynamic content list. See separate definition."
+- field: "List"
+  required: "Yes"
+  comment: "A reference to Curated Content List or Predefined List."
 
 - field: "Header"
   required: "No"
@@ -30,3 +25,13 @@
   required: "No"
   field_type: "object"
   comment: "A Preferences Object. Will affect items in the template."
+
+- field: "Offset"
+  required: "No"
+  field_type: "integer"
+  comment: "Start offset in list."
+
+- field: "Number"
+  required: "No"
+  field_type: "integer"
+  comment: "How many items should be shown from the list."

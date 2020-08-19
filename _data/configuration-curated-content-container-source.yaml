@@ -1,6 +1,0 @@
-- field: "source Type"
-  required: "Yes"
-  comment: "One of `content_list`, `ad_position` or 'service_teaser_position'"
-
-- field: "Source Identifier"
-  required: "Yes"

@@ -1,12 +1,12 @@
 ---
 group: "product-features"
-title:  "Automated Lists"
+title:  "Automated Content Lists"
 parent: "Features"
 ---
 
-# Automated Lists
+# Automated Content Lists
 
-Automated lists are used for promoting related content and to automatically show most recent content, most popular content etc. Lists are defined in [the Product Configuration](../configuration/curated-content-list#automated-content-list).
+Automated Content lists are used for promoting related content and to automatically show most recent content, most popular content etc. Lists are defined in [the Product Configuration](../configuration/curated-content-list#automated-content-list).
 
 ## Excludes
 
