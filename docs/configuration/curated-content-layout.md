@@ -44,6 +44,13 @@ Where a **Source** is defined as:
 
 {% include fields-table.md definition="configuration-curated-content-container-source" %}
 
+### Content List
+
+Instead of a fixed number of positions a container can show a list of items from a dynamic content list. We currently support:
+
+* `children`. This lists all children of the current page, either categories or tags.
+
+
 ## Example
 
 ``` json
@@ -68,8 +75,12 @@ Where a **Source** is defined as:
       "text": "This section contains all the best stuff we have on offer."
     },
     "preferences": {
-      "class_names": ["borderedBottom", "paddedBottom", "spacedBottomGutter"],
+      "class_names": ["borderedBottom", "paddedBottom", "spacedBottomGutter"]
     }
+  },
+  {
+    "template": "1_to_4_col",
+    "content_list": "children"
   },
   {
     "template": "1_to_4_col",
