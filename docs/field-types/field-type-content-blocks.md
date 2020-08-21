@@ -42,12 +42,6 @@ A custom block.
 
 ----
 
-## Separator
-
-A divider for creating segements on a page. 
-
-----
-
 ## Fact Block
 
 Probably a custom block.
