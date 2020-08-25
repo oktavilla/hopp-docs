@@ -1,0 +1,16 @@
+- field: "Render On Branded Content"
+  required: "No"
+  field_type: "boolean"
+  comment: "Turns rendering the position on or off on pages with branded content. Default is false."
+
+- field: "Layout"
+  required: "Yes"
+  reference: curated-content-layout
+  comment: "References a Curated Content Layout to be used for this mix"
+
+- field: "Lists"
+  required: "Yes"
+  reference: curated-content-list
+  reference_type: "many"
+  reference_is_named: true
+  comment: "The reference name must be a key required by the Layout"

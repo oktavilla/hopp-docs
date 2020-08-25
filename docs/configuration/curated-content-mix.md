@@ -42,6 +42,14 @@ You may also define different mixes to be shown on Content Items in specific cat
 
 ---------
 
+## Recirculation Mix Inside Article Content Items
+
+You may define different mixes to be shown inside Article Content Items. The mix will be shown in a suitable position inside the article body.
+
+{% include fields-table.md definition="configuration-category-recirculation-mix-inside-content-items" %}
+
+---------
+
 ## Tag Content Mixes
 
 It is possible to set up additional Content Mixes to replace the default content item listing
