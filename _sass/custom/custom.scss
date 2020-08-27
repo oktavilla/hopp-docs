@@ -1,130 +1,332 @@
-////
-//// Typography
-////
+@mixin placeholder($width:230px, $height:230px, $bgcolor:#ccc, $triangle-color: #c0c0c0, $gutter-size: 3px) {
+  position: relative;
+  background: $bgcolor;
+  z-index:1;
+  width:$width;
+  text-align:center;
+  height:$height;
+  span {
+    box-shadow: 0 0 2px 0 $bgcolor inset;
+    position:relative;
+    height: $height;
+    width: $width;
+    display:block;
+    font-size: 12px;
+    color: #000;
+    line-height: $height;
+    text-align: center;
+    z-index:2;
+    &:after {
+      position: absolute;
+      top:$gutter-size*2;
+      left: $gutter-size;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-top:  -$gutter-size*2 + $height/2 solid transparent;
+      border-bottom:  -$gutter-size*2 + $height/2 solid transparent;
+      border-left:  -$gutter-size*2 + $width/2 solid $triangle-color;
+      z-index:-1;
+    }
+    &:before {
+      position: absolute;
+      top: $gutter-size*2;
+      right: $gutter-size;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-top: -$gutter-size*2 + $height/2 solid transparent;
+      border-bottom: -$gutter-size*2 + $height/2 solid transparent;
+      border-right: -$gutter-size*2 +$width/2 solid $triangle-color;
+      z-index:-1;
+    }
+  }
 
-//$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
-//$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
-//$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
-//$root-font-size: 16px;         // Base font-size for rems
-//$body-line-height: 1.4;
-//$content-line-height: 1.5;
-//$body-heading-line-height: 1.15;
+  &:after {
+    position: absolute;
+    top:$gutter-size;
+    left: $gutter-size*2;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: -$gutter-size*2 + $width/2 solid transparent;
+    border-right: -$gutter-size*2 + $width/2 solid transparent;
+    border-top: -$gutter-size*2 + $height/2 solid $triangle-color;
+    z-index:-1;
+  }
+  &:before {
+    position: absolute;
+    left: $gutter-size*2;
+    bottom: $gutter-size;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: -$gutter-size*2 + $width/2 solid transparent;
+    border-right: -$gutter-size*2 +  $width/2 solid transparent;
+    border-bottom: -$gutter-size*2 +  $height/2 solid $triangle-color;
+    z-index:-1;
+  }
+}
 
-////
-//// Colors
-////
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700');
 
-//$white: #fff;
+h1, h2, h3, .nav-list-link {
+  font-family: 'Work Sans', sans-serif;
+}
 
-//$grey-dk-000: #959396;
-//$grey-dk-100: #5c5962;
-//$grey-dk-200: #44434d;
-//$grey-dk-250: #302d36;
-//$grey-dk-300: #27262b;
+.site-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
 
-//$grey-lt-000: #f5f6fa;
-//$grey-lt-100: #eeebee;
-//$grey-lt-200: #ecebed;
-//$grey-lt-300: #e6e1e8;
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: 600;
+}
+h3 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
 
-//$purple-000: #7253ed;
-//$purple-100: #5e41d0;
-//$purple-200: #4e26af;
-//$purple-300: #381885;
+.site-footer {
+  display: none;
+}
 
-//$blue-000: #2c84fa;
-//$blue-100: #2869e6;
-//$blue-200: #264caf;
-//$blue-300: #183385;
+.parent-definition {
+  td {
+  @extend .text-grey-lt-300;
+  }
+}
 
-//$green-000: #41d693;
-//$green-100: #11b584;
-//$green-200: #009c7b;
-//$green-300: #026e57;
 
-//$yellow-000: #ffeb82;
-//$yellow-100: #fadf50;
-//$yellow-200: #f7d12e;
-//$yellow-300: #e7af06;
+$example-scale: 0.75;
 
-//$red-000: #f77e7e;
-//$red-100: #f96e65;
-//$red-200: #e94c4c;
-//$red-300: #dd2e2e;
+.example {
+  max-width: 500px;
+  font-family: 'Work Sans', sans-serif;
+  color: $grey-lt-300;
+  border: 1px solid $grey-lt-000;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
 
-//$body-background-color: $white;
-//$sidebar-color: $grey-lt-000;
-//$search-background-color: $white;
-//$table-background-color: $white;
-//$code-background-color: $grey-lt-000;
+  &-wide {
+    max-width: 800px;
+  }
 
-//$body-text-color: $grey-dk-100;
-//$body-heading-color: $grey-dk-300;
-//$search-result-preview-color: $grey-dk-000;
-//$nav-child-link-color: $grey-dk-100;
-//$link-color: $purple-000;
-//$btn-primary-color: $purple-100;
-//$base-button-color: #f7f7f7;
+  a {
+    color: darken($grey-lt-300, 10);
+  }
+}
+.example-divider {
+  border: 1px solid $grey-lt-000;
+  margin: 20px*$example-scale 0;
+}
+.example-container {
+  position: relative;
+  overflow: hidden;
+}
+.example-row {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.example-col {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  position: relative;
+  overflow: hidden;
 
-////
-//// Spacing
-////
+  & + .example-col {
+    border-left: 1px solid $grey-lt-000;
+    padding-left: 20px*$example-scale;
+  }
+}
 
-//$spacing-unit: 1rem; // 1rem == 16px
+.example-reference {
+  display: inline-block;
+  font-size: 14px*$example-scale;
+  line-height: 18px*$example-scale;
+  width: 18px*$example-scale;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 50%;
 
-//$spacers: (
-//sp-0: 0,
-//sp-1: $spacing-unit * 0.25,
-//sp-2: $spacing-unit * 0.5,
-//sp-3: $spacing-unit * 0.75,
-//sp-4: $spacing-unit,
-//sp-5: $spacing-unit * 1.5,
-//sp-6: $spacing-unit * 2,
-//sp-7: $spacing-unit * 2.5,
-//sp-8: $spacing-unit * 3,
-//sp-9: $spacing-unit * 3.5,
-//sp-10: $spacing-unit * 4
-//);
+  &-fixed-right {
+    position: absolute;
+    top: 50%;
+    right: 40px*$example-scale;
+  }
+}
+.example-group-header {
+  color: $green-200;
+}
+.example-label {
+  color: darken($grey-lt-300, 10);
+}
+.example-context-label-group {
+  overflow: hidden;
+}
+.example-context-label-part {
+  float: left;
+  margin: 0 5px*$example-scale 0 0;
+}
+.example-context-label {
+  @extend .mb-lg-4;
+  display: block;
+  border: 1px*$example-scale solid $green-200;
+  background-color: $green-200;
+  border-radius: 2px*$example-scale;
+  padding: 3px*$example-scale 7px*$example-scale;
+  color: #fff;
+  &.example-text {
+    background-color: $green-200;
+  }
+}
+.example-sponsor {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 20px*$example-scale 0;
+  max-width: 400px;
+  padding: 10px*$example-scale;
+  border-radius: 2px*$example-scale;
+  border: 1px*$example-scale solid $grey-lt-300;
+}
+.example-sponsor-brand {
+  float: left;
+  margin: 10px*$example-scale 0 0 0;
 
-//$sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
-//$sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
-//$sp-3: map-get($spacers, sp-3); // 0.75 rem == 12px
-//$sp-4: map-get($spacers, sp-4); // 1    rem == 16px
-//$sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
-//$sp-6: map-get($spacers, sp-6); // 2    rem == 32px
-//$sp-7: map-get($spacers, sp-7); // 2.5  rem == 40px
-//$sp-8: map-get($spacers, sp-8); // 3    rem == 48px
-//$sp-9: map-get($spacers, sp-9); // 4    rem == 48px
-//$sp-10: map-get($spacers, sp-10); // 4.5  rem == 48px
+  .example-image {
+    margin: 0 10px*$example-scale 0 0;
+  }
+}
+.example-image {
+  &-55 {
+    @include placeholder(55px*$example-scale, 55px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  }
+  &-100 {
+    @include placeholder(100px*$example-scale, 100px*$example-scale, $grey-lt-100, $grey-lt-300, 2px*$example-scale);
+  }
+}
+.example-input {
+  border: 1px solid $grey-lt-300;
+  padding: 5px*$example-scale;
+}
+.example-button {
+  border: 1px solid $grey-lt-300;
+  background: $grey-lt-300;
+  color: #fff;
+}
+.example-header {
+  overflow: hidden;
+  padding-bottom: 10px*$example-scale;
+  border-bottom: 2px solid $grey-lt-300;
 
-////
-//// Borders
-////
+  .example-image {
+    float: right;
+    margin: 0 0 0 10px*$example-scale;   
+  }
 
-//$border: 1px solid;
-//$border-radius: 4px;
-//$border-color: $grey-lt-100;
+  .example-description {
+    margin-top: 10px*$example-scale;
+  }
+}
+.example-navigation {
+  position: relative;
+  overflow: hidden;
+  padding-top: 10px*$example-scale;
+  margin-top: 10px*$example-scale;
+  border-top: 1px dashed $grey-lt-300;
 
-////
-//// Grid system
-////
+  .example-navigation-item {
+    display: inline-block;
+    margin: 10px*$example-scale 2px*$example-scale 0 0;
+    width: 120px*$example-scale;
+    height: 20px*$example-scale;
+    line-height: 20px*$example-scale;
+    background-color: $blue-000;
 
-//$gutter-spacing: $sp-6;
-//$gutter-spacing-sm: $sp-4;
-//$nav-width: 264px;
-//$nav-width-md: 248px;
-//$content-width: 800px;
-//$header-height: 60px;
-//$search-results-width: 500px;
+    &-with-text {
+      width: auto;
+      font-size: 10px;
+      padding: 0px 5px;
+      color: #fff;
+    }
 
-////
-//// Media queries in pixels
-////
+    &-selected {
+      background-color: $blue-200;
+    }
+  }
+}
+.example-navigation-group {
+  overflow: hidden;
+  margin: 5px*$example-scale 0 0 0;
+  .example-navigation-item,
+  .example-label {
+    margin: 0 5px*$example-scale 0 0;
+    display: block;
+    float: left;
+  }
+  .example-navigation-item {
+    margin-top: 6px*$example-scale;
+  }
+}
+.example-teaser-list {
+  position: relative;
+  overflow: hidden;
+}
+.example-teaser {
+  overflow: hidden;
+  margin-top: 10px*$example-scale;
 
-//$media-queries: (
-//xs: 320px,
-//sm: 500px,
-//md: $content-width,
-//lg: $content-width + $nav-width,
-//xl: 1400px
-//);
+  .example-image {
+    float: left;
+    margin: 0 10px*$example-scale 0 0;   
+  }
+}
+.example-title {
+  margin: 10px*$example-scale 0 0 0;
+  .example-text {
+    height: 45px*$example-scale;
+    background-color: darken($grey-lt-300, 10);
+  }
+}
+.example-body {
+  margin: 20px*$example-scale 0 0 0;
+}
+
+.example-text {
+  display: inline-block;
+  margin: 0 2px*$example-scale 0 0;
+  border-radius: 2px*$example-scale;
+  background-color: $grey-lt-300;
+  width: 100px*$example-scale;
+  height: 20px*$example-scale;
+
+  &-3 {
+    width: 60px*$example-scale;
+  }
+  &-5 {
+    width: 100px*$example-scale;
+  }
+  &-6 {
+    width: 120px*$example-scale;
+  }
+  &-12 {
+    width: 240px*$example-scale;
+  }
+  &-15 {
+    width: 300px*$example-scale;
+  }
+  &-20 {
+    width: 400px*$example-scale;
+  }
+}
+
+
+
