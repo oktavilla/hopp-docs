@@ -1,5 +1,6 @@
 - field: "Category"
   required: "Yes"
+  reference_type: "many"
   reference: category
 
 - field: "Layout"
