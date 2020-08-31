@@ -152,7 +152,7 @@ There are two "areas" for recirculation on content items.
 
 ### Inline recirculation
 
-There may be a [Curated Content Mix](../configuration/curated-content-mix.md#recirculation-mix-inside-article-content-items) configured to be shown inside the Content Item Body. It will be rendered after block six on Articles and below the body on Content Item Types that lack a body with content blocks.
+There may be a [Curated Content Mix](../configuration/curated-content-mix.md#recirculation-mix-inside-article-content-items) configured to be shown inside the Content Item Body. It will be rendered after block six on Articles and below the body on Content Item Types that lack a body with content blocks or has less than 7 blocks in total.
 
 ### Below content recirculation
 
