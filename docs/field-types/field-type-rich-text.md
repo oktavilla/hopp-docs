@@ -7,4 +7,4 @@ parent: "Field Types"
 
 # Rich Text Field
 
-{% include wip.md %}
+Formatted text.

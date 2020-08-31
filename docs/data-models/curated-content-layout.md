@@ -8,6 +8,6 @@ parent: "Data Models"
 
 # Layout
 
-{% include wip.md %}
+{% include fields-table.md parent_definition="configuration-curated-content-layout" %}
 
-See the product [configuration](../configuration/curated-content-layout.md).
+* Defined by the product [configuration](../configuration/curated-content-layout.md).

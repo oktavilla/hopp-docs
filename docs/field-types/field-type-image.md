@@ -7,6 +7,4 @@ parent: "Field Types"
 
 # Image Field
 
-{% include wip.md %}
-
 This is simply an image asset.

@@ -8,8 +8,6 @@ grand_parent: "Data Models"
 
 # Video (Content Type)
 
-{% include wip.md %}
-
 ## Fields
 
 {% include fields-table.md parent_definition="content-item-fields" definition="content-type-video-fields" %}

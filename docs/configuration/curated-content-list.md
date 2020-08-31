@@ -27,6 +27,6 @@ There are both Relational Selection Rules and Explicit Selection Rules. The form
 
 ## Predefined Lists
 
-There's one typed of predefined list:
+There's one type of predefined list:
 
 * `predefined:children`. This is a list of child items for tag or category pages. Only works in certain contexts.
