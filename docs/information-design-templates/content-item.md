@@ -10,7 +10,7 @@ parent: "Information Design Templates"
 
 There is one template for each [Content Variant](../data-models/content-item.md#content-variants). Exactly what fields and data that is available is defined by the [Content Type Schema](../data-models/content-item.md).
 
-Besides content this page may also feature recirculation, [display ads](../data-models/part-ad.md), internal ads (static page teasers) and product services teasers (e.g for subscriptions).
+Besides content this page may also feature recirculation, [display ads](components-and-containers-ad.md), internal ads (static page teasers) and product services teasers (e.g for subscriptions).
 
 1. TOC
 {:toc}
@@ -148,11 +148,19 @@ The Content Item Templates come with dedicated search engine meta data tags that
 
 ## Recirculation
 
-{% include wip.md %}
+There are two "areas" for recirculation on content items. 
+
+### Inline recirculation
+
+There may be a [Curated Content Mix](../configuration/curated-content-mix.md#recirculation-mix-inside-article-content-items) configured to be shown inside the Content Item Body. It will be rendered after block six on Articles and below the body on Content Item Types that lack a body with content blocks.
+
+### Below content recirculation
+
+A [Curated Content Mix](../configuration/curated-content-mix.md#recirculation-content-mix) can be configured to be shown underneath the body of the Content Item. There can be [different Content Mixes](../configuration/curated-content-mix.md#recirculation-content-mix-for-specific-categories) and different Layouts for different Content Items depending on in what Category they're published.
 
 ----
 
 ## Ads
 
-{% include wip.md %}
+See [display ads](components-and-containers-ad.md).
 
