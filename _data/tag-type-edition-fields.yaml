@@ -1,3 +1,7 @@
 - field: "Image"
   required: "No"
   reference: "image"
+
+- field: "Issuing Date"
+  required: "No"
+  field_type: "date"
