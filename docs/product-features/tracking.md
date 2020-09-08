@@ -1,10 +1,10 @@
 ---
 group: "product-features"
-title:  "Tracking"
+title:  "Traffic & Behavior Tracking"
 parent: "Features"
 ---
 
-# Page & User Tracking
+# Traffic & Behavior Tracking
 
 * Page visits and Users are tracked with Google Analytics.
 * We log the visits to a GA property owned by the product owner.

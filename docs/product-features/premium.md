@@ -1,6 +1,6 @@
 ---
 group: "product-features"
-title:  "Premium Content"
+title:  "Premium Content/Paywall"
 parent: "Features"
 ---
 

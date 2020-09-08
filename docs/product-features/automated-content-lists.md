@@ -1,12 +1,13 @@
 ---
 group: "product-features"
-title:  "Automated Content Lists"
-parent: "Features"
+title:  "Automatically Curated Content"
+parent: "Destination Pages & Recirculation"
+grand_parent: "Features"
 ---
 
-# Automated Content Lists
+# Automatically Curated Content
 
-Automated Content lists are used for promoting related content and to automatically show most recent content, most popular content etc. Lists are defined in [the Product Configuration](../configuration/curated-content-list#automated-content-list).
+Automatically Curated Content Lists are used for promoting related content and to automatically show most recent content, most popular content etc. Lists are defined in [the Product Configuration](../configuration/curated-content-list#automated-content-list).
 
 ## Excludes
 

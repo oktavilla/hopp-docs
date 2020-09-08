@@ -8,17 +8,6 @@
   field_type: "boolean"
   comment: "Turns rendering the position on or off."
 
-- field: "Render On Premium Content"
-  required: "No"
-  field_type: "boolean"
-  comment: "Turns rendering the position on or off on pages with premium content. Default is true."
-
-- field: "Render Only On"
-  required: "No"
-  reference_type: "many"
-  field_type: "page-type"
-  comment: "Only meaningful on positions that exist on multiple page types."
-
 - field: "Ad Unit Path"
   required: "Yes"
   comment: "I.e /21636186344/lo_ka_panorama_1"

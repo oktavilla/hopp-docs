@@ -8,6 +8,6 @@ nav_order: 10
 
 # Ad positions
 
-For each product you may define to display ads at any of the default or configured positions.
+For each product you may define to enable ads at any of the default or configured positions.
 
 {% include fields-table.md definition="configuration-product-ad-positions" %}
