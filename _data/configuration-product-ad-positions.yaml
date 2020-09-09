@@ -11,3 +11,7 @@
 - field: "Ad Unit Path"
   required: "Yes"
   comment: "I.e /21636186344/lo_ka_panorama_1"
+
+- field: "Format"
+  required: "No"
+  comment: "One of the predefined formats for ads; currently one of \"panorama\" or \"module\". Required for Page Positions that have been added in a Curated Content layout."
