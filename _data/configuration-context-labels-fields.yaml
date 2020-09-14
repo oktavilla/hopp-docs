@@ -4,6 +4,11 @@
   reference_type: "many"
   comment: "Categories that should NOT be used in labels"
 
+- field: "Always Show Root Category on Content Item Pages"
+  required: "No"
+  field_type: "boolean"
+  comment: "Root Category will be shown in addition to sub Category on Content Items"
+
 - field: "Maximum Number Of Tag Context Labels"
   required: "No"
   field_type: "integer"
