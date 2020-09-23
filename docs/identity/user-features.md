@@ -20,10 +20,6 @@ A subscription is for a package. The subscription process is divided into severa
 3. Activate subscription
 4. Send confirmation/welcome email
 
-## Paywall
-
-See description of [Premium Content](../product-features/premium.md) on the Platform.
-
 ## Sign in
 
 A customer can sign in to get access to products. The sign in process is divided into several steps:
