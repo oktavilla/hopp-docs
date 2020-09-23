@@ -14,7 +14,7 @@ parent: "Identity"
 
 ## Customer
 
-A customer is an identity who potentially will, has had or currently have a relationship to a product. It will have: 
+A customer is an person who potentially will, has had or currently have a relationship to a product. It will have: 
 
 * A connection to a user
 * A connection to an identity
@@ -42,7 +42,7 @@ An identity may have:
 * A user
 * One or several subscriptions
 * Name & address
-* E-mai
+* E-mail
 
 ### E-mail address
 

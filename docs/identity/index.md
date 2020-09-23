@@ -7,4 +7,4 @@ has_children: true
 
 # Identity - Subscriber and Lead Management
 
-A system for handling product offers and subscribers for an organisation. The purpose of this system is to tie the different parts of the product experience together for the customer.
+This part of the platform handles product offers and subscribers. It is used by the ”main product” website to handle signup, authentication and access management for the different parts of product experience.

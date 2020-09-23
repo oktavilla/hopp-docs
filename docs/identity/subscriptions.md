@@ -15,5 +15,6 @@ A subscription have:
 * A connection to a customer
 * A connection to a package
 * A connection to a package that preceded the current one (if applicable)
-* A start date and an end date
+* A start date
+* An end date (calculated based on the validity period of the related package at creation)
 * It can be set to prohibit rollovers
