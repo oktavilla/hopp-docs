@@ -9,16 +9,21 @@ parent: "Identity"
 
 ## Subscription/purchase
 
-A subscription is for a package. The subscription process is divided into several steps:
+There are two main views for the sale of subscriptions:
 
-1. Make sure we have a signed in user by requesting an email address. 
+* The package overview page
+* A package page
+
+The overview lists all packages that aren't archived and each package is linked to it's individual page. The subscription process starts when a user fills in their e-mail addess and clicks on submit button on the package page. The subscription process itself is divided into two main steps:
+
+1. Make sure we have a signed in user (based on the email address provided).
   * If the user exists they will either be asked for a password (if they have one set) or receive a “magic login link” (a temporary login token) leading to the next step in the process.
   * If the user does not exist they will get an email verification email. Clicking on that link in the mail creates a new user, signs them in via a temporary token and then redirects them to the next step in the process.
-2. Make sure we have all the required information about the customer. The products in the package determine what information we ask for. 
+2. In the final step we ask the customer to confirm the subscription purchase and provide or confirm any required information (the products in the package determine what information we ask for). 
   * Missing information is required up front in a form.
-  * Existing information is displayed. The user may change it if necessary.
-3. Activate subscription
-4. Send confirmation/welcome email
+  * Any existing information for existing customers is displayed. The user may change it if necessary.
+
+After confirmation this we activate the subscription and send a confirmation/welcome email.
 
 ## Sign in
 
@@ -34,3 +39,12 @@ A customer can sign in to get access to products. The sign in process is divided
 
 Gotchas:
 A user may not exist. 
+
+## Self Service
+
+After logging in a customer can access a "self service page" where they can:
+
+* Change name and address
+* Set or change password
+* See their subscription(s)
+* Cancel renewal of subscriptions
