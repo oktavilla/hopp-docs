@@ -7,7 +7,7 @@ parent: "Identity"
 
 # User Features
 
-## Subscription/purchase
+## Subscriptions/purchases
 
 There are two main views for the sale of subscriptions:
 
@@ -36,9 +36,6 @@ A customer can sign in to get access to products. The sign in process is divided
     B. Receive a “magic login link” (a temporary login token) if they don’t have a password set.
   * If they don’t exist they will be notified and we return to step 1.
 3. After a successful login, be either means, we redirect the user to the “intent URL”.
-
-Gotchas:
-A user may not exist. 
 
 ## Self Service
 
