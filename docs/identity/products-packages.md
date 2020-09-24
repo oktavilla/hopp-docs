@@ -16,8 +16,8 @@ parent: "Identity"
 
 A product represents a “thing” a customer could access. It could be a printed magazine, a newsletter or online premium content. It has:
 
-* A public name
-* An identifier that can be used when an external system asks if a specific customer has access to this offer.
+* A name
+* An identifier that can be used when an external system (like the editorial part of the platform) asks if a specific customer has access.
 * Requirements on a customer that wants to subscribe to it. Currently we only support “must have postal address”
 
 ## Package
