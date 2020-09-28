@@ -17,6 +17,8 @@ Recognised page type keywords:
 * `signup_details_form_page`
 * `signup_completion_page`
 * `signin_page`
+* `signin_awaiting_confirmation_page`
+* `signin_password_request_page`
 * `password_reset_page`
 * `profile_page`
 * `profile_edit_page`
