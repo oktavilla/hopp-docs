@@ -23,3 +23,4 @@ parent: "Features"
 | `page_id`             | 2     | Hit   | The unique platform identifier for the visited page (i.e the Content Item ID) |
 | `signed_in`           | 3     | Hit   | Boolean (is the visitor signed in?) |
 | `subscriber`          | 4     | Hit   | Boolean (is the visitor an active subscriber?) |
+| `read_on_page`        | 5     | Hit   | Boolean (was a Content Item read on it's own page or in another context, like continuous scroll) |
